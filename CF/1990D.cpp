@@ -1,12 +1,9 @@
 //
-// Created by Zlin on 2024/8/16.
+// Created by Zlin on 2024/8/17.
 //
-#include"bits/stdc++.h"
+#include "bits/stdc++.h"
 
 using namespace std;
-
-typedef long long ll;
-const int N = 1e6 + 5;
 
 inline void Zlin() {
 
@@ -18,5 +15,5 @@ int main() {
     cout.tie(nullptr);
     int ttt;
     cin >> ttt;
-    while (ttt--)Zlin();
+    while (ttt--) Zlin();
 }
