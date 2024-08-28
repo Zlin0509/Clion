@@ -4,6 +4,9 @@
 #include "bits/stdc++.h"
 
 using namespace std;
+typedef long long ll;
+
+const ll mo = 998244353;
 
 inline void Zlin() {
     
