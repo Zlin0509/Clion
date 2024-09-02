@@ -3,3 +3,4 @@ project(Clion)
 
 set(CMAKE_CXX_STANDARD 14)
 add_executable(1957C CF/1957C.cpp)
+add_executable(1955F CF/1955F.cpp)
