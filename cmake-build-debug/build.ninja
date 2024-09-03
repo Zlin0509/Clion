@@ -41,128 +41,35 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/zlin/Desktop/Code/Clion/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 1957C
+# Object build statements for EXECUTABLE target 1983D
 
 
 #############################################
-# Order-only phony target for 1957C
+# Order-only phony target for 1983D
 
-build cmake_object_order_depends_target_1957C: phony || CMakeFiles/1957C.dir
+build cmake_object_order_depends_target_1983D: phony || CMakeFiles/1983D.dir
 
-build CMakeFiles/1957C.dir/CF/1957C.cpp.o: CXX_COMPILER__1957C_unscanned_Debug /Users/zlin/Desktop/Code/Clion/CF/1957C.cpp || cmake_object_order_depends_target_1957C
-  DEP_FILE = CMakeFiles/1957C.dir/CF/1957C.cpp.o.d
+build CMakeFiles/1983D.dir/CF/1983D.cpp.o: CXX_COMPILER__1983D_unscanned_Debug /Users/zlin/Desktop/Code/Clion/CF/1983D.cpp || cmake_object_order_depends_target_1983D
+  DEP_FILE = CMakeFiles/1983D.dir/CF/1983D.cpp.o.d
   FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/1957C.dir
-  OBJECT_FILE_DIR = CMakeFiles/1957C.dir/CF
+  OBJECT_DIR = CMakeFiles/1983D.dir
+  OBJECT_FILE_DIR = CMakeFiles/1983D.dir/CF
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 1957C
+# Link build statements for EXECUTABLE target 1983D
 
 
 #############################################
-# Link the executable 1957C
+# Link the executable 1983D
 
-build 1957C: CXX_EXECUTABLE_LINKER__1957C_Debug CMakeFiles/1957C.dir/CF/1957C.cpp.o
+build 1983D: CXX_EXECUTABLE_LINKER__1983D_Debug CMakeFiles/1983D.dir/CF/1983D.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/1957C.dir
+  OBJECT_DIR = CMakeFiles/1983D.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 1957C
-  TARGET_PDB = 1957C.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 1955F
-
-
-#############################################
-# Order-only phony target for 1955F
-
-build cmake_object_order_depends_target_1955F: phony || CMakeFiles/1955F.dir
-
-build CMakeFiles/1955F.dir/CF/1955F.cpp.o: CXX_COMPILER__1955F_unscanned_Debug /Users/zlin/Desktop/Code/Clion/CF/1955F.cpp || cmake_object_order_depends_target_1955F
-  DEP_FILE = CMakeFiles/1955F.dir/CF/1955F.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/1955F.dir
-  OBJECT_FILE_DIR = CMakeFiles/1955F.dir/CF
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 1955F
-
-
-#############################################
-# Link the executable 1955F
-
-build 1955F: CXX_EXECUTABLE_LINKER__1955F_Debug CMakeFiles/1955F.dir/CF/1955F.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/1955F.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 1955F
-  TARGET_PDB = 1955F.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 2001D
-
-
-#############################################
-# Order-only phony target for 2001D
-
-build cmake_object_order_depends_target_2001D: phony || CMakeFiles/2001D.dir
-
-build CMakeFiles/2001D.dir/CF/2001D.cpp.o: CXX_COMPILER__2001D_unscanned_Debug /Users/zlin/Desktop/Code/Clion/CF/2001D.cpp || cmake_object_order_depends_target_2001D
-  DEP_FILE = CMakeFiles/2001D.dir/CF/2001D.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/2001D.dir
-  OBJECT_FILE_DIR = CMakeFiles/2001D.dir/CF
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 2001D
-
-
-#############################################
-# Link the executable 2001D
-
-build 2001D: CXX_EXECUTABLE_LINKER__2001D_Debug CMakeFiles/2001D.dir/CF/2001D.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/2001D.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 2001D
-  TARGET_PDB = 2001D.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 1989D
-
-
-#############################################
-# Order-only phony target for 1989D
-
-build cmake_object_order_depends_target_1989D: phony || CMakeFiles/1989D.dir
-
-build CMakeFiles/1989D.dir/CF/1989D.cpp.o: CXX_COMPILER__1989D_unscanned_Debug /Users/zlin/Desktop/Code/Clion/CF/1989D.cpp || cmake_object_order_depends_target_1989D
-  DEP_FILE = CMakeFiles/1989D.dir/CF/1989D.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/1989D.dir
-  OBJECT_FILE_DIR = CMakeFiles/1989D.dir/CF
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 1989D
-
-
-#############################################
-# Link the executable 1989D
-
-build 1989D: CXX_EXECUTABLE_LINKER__1989D_Debug CMakeFiles/1989D.dir/CF/1989D.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/1989D.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 1989D
-  TARGET_PDB = 1989D.dbg
+  TARGET_FILE = 1983D
+  TARGET_PDB = 1983D.dbg
 
 
 #############################################
@@ -198,7 +105,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/zlin/Desktop/Code/Clion/cmake-build-debug
 
-build all: phony 1957C 1955F 2001D 1989D
+build all: phony 1983D
 
 # =============================================================================
 # Built-in targets
