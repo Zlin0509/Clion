@@ -71,6 +71,68 @@ build 1983D: CXX_EXECUTABLE_LINKER__1983D_Debug CMakeFiles/1983D.dir/CF/1983D.cp
   TARGET_FILE = 1983D
   TARGET_PDB = 1983D.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1977C
+
+
+#############################################
+# Order-only phony target for 1977C
+
+build cmake_object_order_depends_target_1977C: phony || CMakeFiles/1977C.dir
+
+build CMakeFiles/1977C.dir/CF/1977C.cpp.o: CXX_COMPILER__1977C_unscanned_Debug /Users/zlin/Desktop/Code/Clion/CF/1977C.cpp || cmake_object_order_depends_target_1977C
+  DEP_FILE = CMakeFiles/1977C.dir/CF/1977C.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1977C.dir
+  OBJECT_FILE_DIR = CMakeFiles/1977C.dir/CF
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1977C
+
+
+#############################################
+# Link the executable 1977C
+
+build 1977C: CXX_EXECUTABLE_LINKER__1977C_Debug CMakeFiles/1977C.dir/CF/1977C.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/1977C.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1977C
+  TARGET_PDB = 1977C.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1935C
+
+
+#############################################
+# Order-only phony target for 1935C
+
+build cmake_object_order_depends_target_1935C: phony || CMakeFiles/1935C.dir
+
+build CMakeFiles/1935C.dir/CF/1935C.cpp.o: CXX_COMPILER__1935C_unscanned_Debug /Users/zlin/Desktop/Code/Clion/CF/1935C.cpp || cmake_object_order_depends_target_1935C
+  DEP_FILE = CMakeFiles/1935C.dir/CF/1935C.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1935C.dir
+  OBJECT_FILE_DIR = CMakeFiles/1935C.dir/CF
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1935C
+
+
+#############################################
+# Link the executable 1935C
+
+build 1935C: CXX_EXECUTABLE_LINKER__1935C_Debug CMakeFiles/1935C.dir/CF/1935C.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/1935C.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1935C
+  TARGET_PDB = 1935C.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -105,7 +167,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/zlin/Desktop/Code/Clion/cmake-build-debug
 
-build all: phony 1983D
+build all: phony 1983D 1977C 1935C
 
 # =============================================================================
 # Built-in targets
