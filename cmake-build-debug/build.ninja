@@ -41,97 +41,66 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/zlin/Desktop/Code/Clion/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 1927F
+# Object build statements for EXECUTABLE target 1974F
 
 
 #############################################
-# Order-only phony target for 1927F
+# Order-only phony target for 1974F
 
-build cmake_object_order_depends_target_1927F: phony || CMakeFiles/1927F.dir
+build cmake_object_order_depends_target_1974F: phony || CMakeFiles/1974F.dir
 
-build CMakeFiles/1927F.dir/CF/1927F.cpp.o: CXX_COMPILER__1927F_unscanned_Debug /Users/zlin/Desktop/Code/Clion/CF/1927F.cpp || cmake_object_order_depends_target_1927F
-  DEP_FILE = CMakeFiles/1927F.dir/CF/1927F.cpp.o.d
+build CMakeFiles/1974F.dir/CF/1974F.cpp.o: CXX_COMPILER__1974F_unscanned_Debug /Users/zlin/Desktop/Code/Clion/CF/1974F.cpp || cmake_object_order_depends_target_1974F
+  DEP_FILE = CMakeFiles/1974F.dir/CF/1974F.cpp.o.d
   FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/1927F.dir
-  OBJECT_FILE_DIR = CMakeFiles/1927F.dir/CF
+  OBJECT_DIR = CMakeFiles/1974F.dir
+  OBJECT_FILE_DIR = CMakeFiles/1974F.dir/CF
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 1927F
+# Link build statements for EXECUTABLE target 1974F
 
 
 #############################################
-# Link the executable 1927F
+# Link the executable 1974F
 
-build 1927F: CXX_EXECUTABLE_LINKER__1927F_Debug CMakeFiles/1927F.dir/CF/1927F.cpp.o
+build 1974F: CXX_EXECUTABLE_LINKER__1974F_Debug CMakeFiles/1974F.dir/CF/1974F.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/1927F.dir
+  OBJECT_DIR = CMakeFiles/1974F.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 1927F
-  TARGET_PDB = 1927F.dbg
+  TARGET_FILE = 1974F
+  TARGET_PDB = 1974F.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 2002D1
+# Object build statements for EXECUTABLE target 1968G1
 
 
 #############################################
-# Order-only phony target for 2002D1
+# Order-only phony target for 1968G1
 
-build cmake_object_order_depends_target_2002D1: phony || CMakeFiles/2002D1.dir
+build cmake_object_order_depends_target_1968G1: phony || CMakeFiles/1968G1.dir
 
-build CMakeFiles/2002D1.dir/CF/2002D1.cpp.o: CXX_COMPILER__2002D1_unscanned_Debug /Users/zlin/Desktop/Code/Clion/CF/2002D1.cpp || cmake_object_order_depends_target_2002D1
-  DEP_FILE = CMakeFiles/2002D1.dir/CF/2002D1.cpp.o.d
+build CMakeFiles/1968G1.dir/CF/1968G1.cpp.o: CXX_COMPILER__1968G1_unscanned_Debug /Users/zlin/Desktop/Code/Clion/CF/1968G1.cpp || cmake_object_order_depends_target_1968G1
+  DEP_FILE = CMakeFiles/1968G1.dir/CF/1968G1.cpp.o.d
   FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/2002D1.dir
-  OBJECT_FILE_DIR = CMakeFiles/2002D1.dir/CF
+  OBJECT_DIR = CMakeFiles/1968G1.dir
+  OBJECT_FILE_DIR = CMakeFiles/1968G1.dir/CF
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 2002D1
+# Link build statements for EXECUTABLE target 1968G1
 
 
 #############################################
-# Link the executable 2002D1
+# Link the executable 1968G1
 
-build 2002D1: CXX_EXECUTABLE_LINKER__2002D1_Debug CMakeFiles/2002D1.dir/CF/2002D1.cpp.o
+build 1968G1: CXX_EXECUTABLE_LINKER__1968G1_Debug CMakeFiles/1968G1.dir/CF/1968G1.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/2002D1.dir
+  OBJECT_DIR = CMakeFiles/1968G1.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 2002D1
-  TARGET_PDB = 2002D1.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 1980F1
-
-
-#############################################
-# Order-only phony target for 1980F1
-
-build cmake_object_order_depends_target_1980F1: phony || CMakeFiles/1980F1.dir
-
-build CMakeFiles/1980F1.dir/CF/1980F1.cpp.o: CXX_COMPILER__1980F1_unscanned_Debug /Users/zlin/Desktop/Code/Clion/CF/1980F1.cpp || cmake_object_order_depends_target_1980F1
-  DEP_FILE = CMakeFiles/1980F1.dir/CF/1980F1.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/1980F1.dir
-  OBJECT_FILE_DIR = CMakeFiles/1980F1.dir/CF
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 1980F1
-
-
-#############################################
-# Link the executable 1980F1
-
-build 1980F1: CXX_EXECUTABLE_LINKER__1980F1_Debug CMakeFiles/1980F1.dir/CF/1980F1.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/1980F1.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 1980F1
-  TARGET_PDB = 1980F1.dbg
+  TARGET_FILE = 1968G1
+  TARGET_PDB = 1968G1.dbg
 
 
 #############################################
@@ -167,7 +136,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/zlin/Desktop/Code/Clion/cmake-build-debug
 
-build all: phony 1927F 2002D1 1980F1
+build all: phony 1974F 1968G1
 
 # =============================================================================
 # Built-in targets
