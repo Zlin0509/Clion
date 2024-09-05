@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Clion",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1927F::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1927F-Debug-58fe861869e9e41958bf.json",
+					"name" : "1927F",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1980F1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1980F1-Debug-d2c151323afc952d304e.json",
+					"name" : "1980F1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2002D1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2002D1-Debug-10105ca8c95306814115.json",
+					"name" : "2002D1",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/zlin/Desktop/Code/Clion/cmake-build-debug",
+		"source" : "/Users/zlin/Desktop/Code/Clion"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
