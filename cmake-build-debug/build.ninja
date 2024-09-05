@@ -102,6 +102,37 @@ build 2002D1: CXX_EXECUTABLE_LINKER__2002D1_Debug CMakeFiles/2002D1.dir/CF/2002D
   TARGET_FILE = 2002D1
   TARGET_PDB = 2002D1.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1980F1
+
+
+#############################################
+# Order-only phony target for 1980F1
+
+build cmake_object_order_depends_target_1980F1: phony || CMakeFiles/1980F1.dir
+
+build CMakeFiles/1980F1.dir/CF/1980F1.cpp.o: CXX_COMPILER__1980F1_unscanned_Debug /Users/zlin/Desktop/Code/Clion/CF/1980F1.cpp || cmake_object_order_depends_target_1980F1
+  DEP_FILE = CMakeFiles/1980F1.dir/CF/1980F1.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1980F1.dir
+  OBJECT_FILE_DIR = CMakeFiles/1980F1.dir/CF
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1980F1
+
+
+#############################################
+# Link the executable 1980F1
+
+build 1980F1: CXX_EXECUTABLE_LINKER__1980F1_Debug CMakeFiles/1980F1.dir/CF/1980F1.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/1980F1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1980F1
+  TARGET_PDB = 1980F1.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,7 +167,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/zlin/Desktop/Code/Clion/cmake-build-debug
 
-build all: phony 1927F 2002D1
+build all: phony 1927F 2002D1 1980F1
 
 # =============================================================================
 # Built-in targets
