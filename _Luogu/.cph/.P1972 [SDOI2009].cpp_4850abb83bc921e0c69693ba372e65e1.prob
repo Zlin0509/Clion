@@ -1,1 +1,0 @@
-{"name":"Local: P1972 [SDOI2009]","url":"c:\\Users\\27682\\Desktop\\Work\\Cpp\\Luogu\\P1972 [SDOI2009].cpp","tests":[{"id":1720323986227,"input":"6\n1 2 3 4 3 5\n3\n1 2\n3 5\n2 6","output":"2\n2\n4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\27682\\Desktop\\Work\\Cpp\\Luogu\\P1972 [SDOI2009].cpp","group":"local","local":true}

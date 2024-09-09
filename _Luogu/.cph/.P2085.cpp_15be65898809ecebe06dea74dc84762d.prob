@@ -1,1 +1,0 @@
-{"name":"Local: P2085","url":"c:\\Users\\27682\\Desktop\\Work\\Cpp\\Luogu\\P2085.cpp","tests":[{"id":1719975699853,"input":"3 10\n4 5 3\n3 4 5\n1 7 1","output":"9 12 12 19 25 29 31 44 45 54"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\27682\\Desktop\\Work\\Cpp\\Luogu\\P2085.cpp","group":"local","local":true}

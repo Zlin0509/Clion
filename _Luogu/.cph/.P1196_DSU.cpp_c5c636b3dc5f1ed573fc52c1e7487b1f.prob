@@ -1,1 +1,0 @@
-{"name":"Local: P1196_DSU","url":"c:\\Users\\27682\\Desktop\\Code\\C\\Luogu\\P1196_DSU.cpp","tests":[{"id":1714275888489,"input":"4\nM 2 3\nC 1 2\nM 2 4\nC 4 2","output":"-1\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\27682\\Desktop\\Code\\C\\Luogu\\P1196_DSU.cpp","group":"local","local":true}

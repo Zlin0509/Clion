@@ -1,1 +1,0 @@
-{"name":"Local: P1816","url":"c:\\Users\\27682\\Desktop\\Work\\Cpp\\Luogu\\P1816.cpp","tests":[{"id":1719992368384,"input":"10 3\n1 2 3 4 5 6 7 8 9 10\n2 7\n3 9\n1 10","output":"2 3 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\27682\\Desktop\\Work\\Cpp\\Luogu\\P1816.cpp","group":"local","local":true}

@@ -1,1 +1,0 @@
-{"name":"Local: P2324","url":"c:\\Users\\27682\\Desktop\\Code\\C\\Luogu\\P2324.cpp","tests":[{"id":1714204046358,"input":"2\n10110\n01*11\n10111\n01001\n00000\n01011\n110*1\n01110\n01010\n00100","output":"7\n-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\27682\\Desktop\\Code\\C\\Luogu\\P2324.cpp","group":"local","local":true}

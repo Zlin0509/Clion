@@ -1,1 +1,0 @@
-{"name":"Local: P8972","url":"c:\\Users\\27682\\Desktop\\Work\\Cpp\\Luogu\\P8972.cpp","tests":[{"id":1722218149379,"input":"5 3\n1 2 3 4 5\n1 2 0.1\n2 3 0.20\n3 4 0.5\n2 5 0.99\n1 5\n1 4\n4 3","output":"No\nNo\nYes"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\27682\\Desktop\\Work\\Cpp\\Luogu\\P8972.cpp","group":"local","local":true}

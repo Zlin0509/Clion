@@ -1,1 +1,0 @@
-{"name":"Local: P1535","url":"c:\\Users\\27682\\Desktop\\Code\\Luogu\\P1535.cpp","tests":[{"id":1712205078198,"input":"4 5 6\n...*.\n...*.\n.....\n.....\n1 3 1 5","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\27682\\Desktop\\Code\\Luogu\\P1535.cpp","group":"local","local":true}

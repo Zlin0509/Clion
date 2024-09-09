@@ -1,1 +1,0 @@
-{"name":"Local: P1739","url":"c:\\Users\\27682\\Desktop\\Work\\Cpp\\Luogu\\P1739.cpp","tests":[{"id":1720664392756,"input":"2*(x+y)/(1-x)@","output":"YES"},{"id":1720664399989,"input":"(25+x)*(a*(a+b+b)@","output":"NO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\27682\\Desktop\\Work\\Cpp\\Luogu\\P1739.cpp","group":"local","local":true}
