@@ -1,0 +1,1 @@
+{"name":"Local: P3379","url":"c:\\Users\\27682\\Desktop\\Work\\Cpp\\Luogu\\P3379.cpp","tests":[{"id":1720939103326,"input":"5 5 4\n3 1\n2 4\n5 1\n1 4\n2 4\n3 2\n3 5\n1 2\n4 5","output":"4\n4\n1\n4\n4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\27682\\Desktop\\Work\\Cpp\\Luogu\\P3379.cpp","group":"local","local":true}

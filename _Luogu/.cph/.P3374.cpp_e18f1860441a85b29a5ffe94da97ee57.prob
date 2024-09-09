@@ -1,0 +1,1 @@
+{"name":"Local: P3374","url":"c:\\Users\\27682\\Desktop\\Work\\Cpp\\Luogu\\P3374.cpp","tests":[{"id":1720151979512,"input":"5 5\n1 5 4 2 3\n1 1 3\n2 2 5\n1 3 -1\n1 4 2\n2 1 4","output":"14\n16"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\27682\\Desktop\\Work\\Cpp\\Luogu\\P3374.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: P2678","url":"c:\\Users\\27682\\Desktop\\Code\\Luogu\\P2678.cpp","tests":[{"id":1712240853024,"input":"25 5 2 \n2\n11\n14\n17 \n21","output":"4"},{"id":1712242269363,"input":"65343245 0 0","output":"65343245"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\27682\\Desktop\\Code\\Luogu\\P2678.cpp","group":"local","local":true}

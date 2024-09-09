@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2024.1.5\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\1922D.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.5\bin\mingw\bin\ar.exe qc CMakeFiles\1922D.dir/objects.a @CMakeFiles\1922D.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.5\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\1922D.dir/objects.a -Wl,--no-whole-archive -o 1922D.exe -Wl,--out-implib,lib1922D.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\1922D.dir\linkLibs.rsp
