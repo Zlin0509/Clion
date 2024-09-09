@@ -117,78 +117,152 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 1932F
+# Target rules for targets named gauss
 
 # Build rule for target.
-1932F: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1932F
-.PHONY : 1932F
+gauss: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gauss
+.PHONY : gauss
 
 # fast build rule for target.
-1932F/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1932F.dir/build.make CMakeFiles/1932F.dir/build
-.PHONY : 1932F/fast
+gauss/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gauss.dir/build.make CMakeFiles/gauss.dir/build
+.PHONY : gauss/fast
 
 #=============================================================================
-# Target rules for targets named 1922D
+# Target rules for targets named 3949
 
 # Build rule for target.
-1922D: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1922D
-.PHONY : 1922D
+3949: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3949
+.PHONY : 3949
 
 # fast build rule for target.
-1922D/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1922D.dir/build.make CMakeFiles/1922D.dir/build
-.PHONY : 1922D/fast
+3949/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3949.dir/build.make CMakeFiles/3949.dir/build
+.PHONY : 3949/fast
 
-CF/1922D.o: CF/1922D.cpp.o
-.PHONY : CF/1922D.o
+#=============================================================================
+# Target rules for targets named 3164
+
+# Build rule for target.
+3164: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3164
+.PHONY : 3164
+
+# fast build rule for target.
+3164/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3164.dir/build.make CMakeFiles/3164.dir/build
+.PHONY : 3164/fast
+
+#=============================================================================
+# Target rules for targets named 6579
+
+# Build rule for target.
+6579: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6579
+.PHONY : 6579
+
+# fast build rule for target.
+6579/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6579.dir/build.make CMakeFiles/6579.dir/build
+.PHONY : 6579/fast
+
+_Acwing/3164.o: _Acwing/3164.cpp.o
+.PHONY : _Acwing/3164.o
 
 # target to build an object file
-CF/1922D.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1922D.dir/build.make CMakeFiles/1922D.dir/CF/1922D.cpp.o
-.PHONY : CF/1922D.cpp.o
+_Acwing/3164.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3164.dir/build.make CMakeFiles/3164.dir/_Acwing/3164.cpp.o
+.PHONY : _Acwing/3164.cpp.o
 
-CF/1922D.i: CF/1922D.cpp.i
-.PHONY : CF/1922D.i
+_Acwing/3164.i: _Acwing/3164.cpp.i
+.PHONY : _Acwing/3164.i
 
 # target to preprocess a source file
-CF/1922D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1922D.dir/build.make CMakeFiles/1922D.dir/CF/1922D.cpp.i
-.PHONY : CF/1922D.cpp.i
+_Acwing/3164.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3164.dir/build.make CMakeFiles/3164.dir/_Acwing/3164.cpp.i
+.PHONY : _Acwing/3164.cpp.i
 
-CF/1922D.s: CF/1922D.cpp.s
-.PHONY : CF/1922D.s
+_Acwing/3164.s: _Acwing/3164.cpp.s
+.PHONY : _Acwing/3164.s
 
 # target to generate assembly for a file
-CF/1922D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1922D.dir/build.make CMakeFiles/1922D.dir/CF/1922D.cpp.s
-.PHONY : CF/1922D.cpp.s
+_Acwing/3164.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3164.dir/build.make CMakeFiles/3164.dir/_Acwing/3164.cpp.s
+.PHONY : _Acwing/3164.cpp.s
 
-CF/1932F.o: CF/1932F.cpp.o
-.PHONY : CF/1932F.o
+_HDU/3949.o: _HDU/3949.cpp.o
+.PHONY : _HDU/3949.o
 
 # target to build an object file
-CF/1932F.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1932F.dir/build.make CMakeFiles/1932F.dir/CF/1932F.cpp.o
-.PHONY : CF/1932F.cpp.o
+_HDU/3949.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3949.dir/build.make CMakeFiles/3949.dir/_HDU/3949.cpp.o
+.PHONY : _HDU/3949.cpp.o
 
-CF/1932F.i: CF/1932F.cpp.i
-.PHONY : CF/1932F.i
+_HDU/3949.i: _HDU/3949.cpp.i
+.PHONY : _HDU/3949.i
 
 # target to preprocess a source file
-CF/1932F.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1932F.dir/build.make CMakeFiles/1932F.dir/CF/1932F.cpp.i
-.PHONY : CF/1932F.cpp.i
+_HDU/3949.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3949.dir/build.make CMakeFiles/3949.dir/_HDU/3949.cpp.i
+.PHONY : _HDU/3949.cpp.i
 
-CF/1932F.s: CF/1932F.cpp.s
-.PHONY : CF/1932F.s
+_HDU/3949.s: _HDU/3949.cpp.s
+.PHONY : _HDU/3949.s
 
 # target to generate assembly for a file
-CF/1932F.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1932F.dir/build.make CMakeFiles/1932F.dir/CF/1932F.cpp.s
-.PHONY : CF/1932F.cpp.s
+_HDU/3949.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3949.dir/build.make CMakeFiles/3949.dir/_HDU/3949.cpp.s
+.PHONY : _HDU/3949.cpp.s
+
+_HDU/6579.o: _HDU/6579.cpp.o
+.PHONY : _HDU/6579.o
+
+# target to build an object file
+_HDU/6579.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6579.dir/build.make CMakeFiles/6579.dir/_HDU/6579.cpp.o
+.PHONY : _HDU/6579.cpp.o
+
+_HDU/6579.i: _HDU/6579.cpp.i
+.PHONY : _HDU/6579.i
+
+# target to preprocess a source file
+_HDU/6579.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6579.dir/build.make CMakeFiles/6579.dir/_HDU/6579.cpp.i
+.PHONY : _HDU/6579.cpp.i
+
+_HDU/6579.s: _HDU/6579.cpp.s
+.PHONY : _HDU/6579.s
+
+# target to generate assembly for a file
+_HDU/6579.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6579.dir/build.make CMakeFiles/6579.dir/_HDU/6579.cpp.s
+.PHONY : _HDU/6579.cpp.s
+
+_Sample/gauss.o: _Sample/gauss.cpp.o
+.PHONY : _Sample/gauss.o
+
+# target to build an object file
+_Sample/gauss.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gauss.dir/build.make CMakeFiles/gauss.dir/_Sample/gauss.cpp.o
+.PHONY : _Sample/gauss.cpp.o
+
+_Sample/gauss.i: _Sample/gauss.cpp.i
+.PHONY : _Sample/gauss.i
+
+# target to preprocess a source file
+_Sample/gauss.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gauss.dir/build.make CMakeFiles/gauss.dir/_Sample/gauss.cpp.i
+.PHONY : _Sample/gauss.cpp.i
+
+_Sample/gauss.s: _Sample/gauss.cpp.s
+.PHONY : _Sample/gauss.s
+
+# target to generate assembly for a file
+_Sample/gauss.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gauss.dir/build.make CMakeFiles/gauss.dir/_Sample/gauss.cpp.s
+.PHONY : _Sample/gauss.cpp.s
 
 # Help Target
 help:
@@ -198,14 +272,22 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 1922D"
-	@echo "... 1932F"
-	@echo "... CF/1922D.o"
-	@echo "... CF/1922D.i"
-	@echo "... CF/1922D.s"
-	@echo "... CF/1932F.o"
-	@echo "... CF/1932F.i"
-	@echo "... CF/1932F.s"
+	@echo "... 3164"
+	@echo "... 3949"
+	@echo "... 6579"
+	@echo "... gauss"
+	@echo "... _Acwing/3164.o"
+	@echo "... _Acwing/3164.i"
+	@echo "... _Acwing/3164.s"
+	@echo "... _HDU/3949.o"
+	@echo "... _HDU/3949.i"
+	@echo "... _HDU/3949.s"
+	@echo "... _HDU/6579.o"
+	@echo "... _HDU/6579.i"
+	@echo "... _HDU/6579.s"
+	@echo "... _Sample/gauss.o"
+	@echo "... _Sample/gauss.i"
+	@echo "... _Sample/gauss.s"
 .PHONY : help
 
 

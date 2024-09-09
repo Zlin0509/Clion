@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Clion",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "3164::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3164-Debug-83179132b9e01975d8e8.json",
+					"name" : "3164",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3949::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3949-Debug-f014f085d224a9b45c76.json",
+					"name" : "3949",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "6579::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-6579-Debug-f1352ffb7b6f4c7985f3.json",
+					"name" : "6579",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gauss::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gauss-Debug-4540ba58618716d191d8.json",
+					"name" : "gauss",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/zlin/Desktop/Code/Clion/cmake-build-debug",
+		"source" : "/Users/zlin/Desktop/Code/Clion"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

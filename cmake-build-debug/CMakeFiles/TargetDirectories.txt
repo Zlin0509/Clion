@@ -1,4 +1,6 @@
-C:/Users/27682/Desktop/Work/Clion/cmake-build-debug/CMakeFiles/1932F.dir
-C:/Users/27682/Desktop/Work/Clion/cmake-build-debug/CMakeFiles/1922D.dir
-C:/Users/27682/Desktop/Work/Clion/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/27682/Desktop/Work/Clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles/gauss.dir
+/Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles/3949.dir
+/Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles/3164.dir
+/Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles/6579.dir
+/Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
