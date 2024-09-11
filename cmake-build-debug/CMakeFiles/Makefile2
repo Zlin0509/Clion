@@ -63,10 +63,9 @@ CMAKE_BINARY_DIR = /Users/zlin/Desktop/Code/Clion/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/2004E.dir/all
-all: CMakeFiles/2003D2.dir/all
-all: CMakeFiles/2000G.dir/all
 all: CMakeFiles/2000H.dir/all
+all: CMakeFiles/test.dir/all
+all: CMakeFiles/2000F.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,89 +73,10 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/2004E.dir/clean
-clean: CMakeFiles/2003D2.dir/clean
-clean: CMakeFiles/2000G.dir/clean
 clean: CMakeFiles/2000H.dir/clean
+clean: CMakeFiles/test.dir/clean
+clean: CMakeFiles/2000F.dir/clean
 .PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/2004E.dir
-
-# All Build rule for target.
-CMakeFiles/2004E.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2004E.dir/build.make CMakeFiles/2004E.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2004E.dir/build.make CMakeFiles/2004E.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 2004E"
-.PHONY : CMakeFiles/2004E.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/2004E.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2004E.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/2004E.dir/rule
-
-# Convenience name for target.
-2004E: CMakeFiles/2004E.dir/rule
-.PHONY : 2004E
-
-# clean rule for target.
-CMakeFiles/2004E.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2004E.dir/build.make CMakeFiles/2004E.dir/clean
-.PHONY : CMakeFiles/2004E.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/2003D2.dir
-
-# All Build rule for target.
-CMakeFiles/2003D2.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2003D2.dir/build.make CMakeFiles/2003D2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2003D2.dir/build.make CMakeFiles/2003D2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target 2003D2"
-.PHONY : CMakeFiles/2003D2.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/2003D2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2003D2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/2003D2.dir/rule
-
-# Convenience name for target.
-2003D2: CMakeFiles/2003D2.dir/rule
-.PHONY : 2003D2
-
-# clean rule for target.
-CMakeFiles/2003D2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2003D2.dir/build.make CMakeFiles/2003D2.dir/clean
-.PHONY : CMakeFiles/2003D2.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/2000G.dir
-
-# All Build rule for target.
-CMakeFiles/2000G.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2000G.dir/build.make CMakeFiles/2000G.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2000G.dir/build.make CMakeFiles/2000G.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 2000G"
-.PHONY : CMakeFiles/2000G.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/2000G.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2000G.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/2000G.dir/rule
-
-# Convenience name for target.
-2000G: CMakeFiles/2000G.dir/rule
-.PHONY : 2000G
-
-# clean rule for target.
-CMakeFiles/2000G.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2000G.dir/build.make CMakeFiles/2000G.dir/clean
-.PHONY : CMakeFiles/2000G.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/2000H.dir
@@ -183,6 +103,58 @@ CMakeFiles/2000H.dir/rule: cmake_check_build_system
 CMakeFiles/2000H.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2000H.dir/build.make CMakeFiles/2000H.dir/clean
 .PHONY : CMakeFiles/2000H.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test.dir
+
+# All Build rule for target.
+CMakeFiles/test.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target test"
+.PHONY : CMakeFiles/test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/test.dir/rule
+
+# Convenience name for target.
+test: CMakeFiles/test.dir/rule
+.PHONY : test
+
+# clean rule for target.
+CMakeFiles/test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/clean
+.PHONY : CMakeFiles/test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2000F.dir
+
+# All Build rule for target.
+CMakeFiles/2000F.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2000F.dir/build.make CMakeFiles/2000F.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2000F.dir/build.make CMakeFiles/2000F.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 2000F"
+.PHONY : CMakeFiles/2000F.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2000F.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2000F.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2000F.dir/rule
+
+# Convenience name for target.
+2000F: CMakeFiles/2000F.dir/rule
+.PHONY : 2000F
+
+# clean rule for target.
+CMakeFiles/2000F.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2000F.dir/build.make CMakeFiles/2000F.dir/clean
+.PHONY : CMakeFiles/2000F.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
