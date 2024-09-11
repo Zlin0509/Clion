@@ -1,7 +1,5 @@
-/Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles/2000H.dir
-/Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles/test.dir
-/Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles/2000F.dir
 /Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles/1998D.dir
 /Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles/1998E1.dir
+/Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles/1998C.dir
 /Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

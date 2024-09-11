@@ -117,45 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 2000H
-
-# Build rule for target.
-2000H: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2000H
-.PHONY : 2000H
-
-# fast build rule for target.
-2000H/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2000H.dir/build.make CMakeFiles/2000H.dir/build
-.PHONY : 2000H/fast
-
-#=============================================================================
-# Target rules for targets named test
-
-# Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
-.PHONY : test
-
-# fast build rule for target.
-test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
-
-#=============================================================================
-# Target rules for targets named 2000F
-
-# Build rule for target.
-2000F: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2000F
-.PHONY : 2000F
-
-# fast build rule for target.
-2000F/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2000F.dir/build.make CMakeFiles/2000F.dir/build
-.PHONY : 2000F/fast
-
-#=============================================================================
 # Target rules for targets named 1998D
 
 # Build rule for target.
@@ -180,6 +141,43 @@ test/fast:
 1998E1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/1998E1.dir/build.make CMakeFiles/1998E1.dir/build
 .PHONY : 1998E1/fast
+
+#=============================================================================
+# Target rules for targets named 1998C
+
+# Build rule for target.
+1998C: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1998C
+.PHONY : 1998C
+
+# fast build rule for target.
+1998C/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1998C.dir/build.make CMakeFiles/1998C.dir/build
+.PHONY : 1998C/fast
+
+_CF/1998C.o: _CF/1998C.cpp.o
+.PHONY : _CF/1998C.o
+
+# target to build an object file
+_CF/1998C.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1998C.dir/build.make CMakeFiles/1998C.dir/_CF/1998C.cpp.o
+.PHONY : _CF/1998C.cpp.o
+
+_CF/1998C.i: _CF/1998C.cpp.i
+.PHONY : _CF/1998C.i
+
+# target to preprocess a source file
+_CF/1998C.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1998C.dir/build.make CMakeFiles/1998C.dir/_CF/1998C.cpp.i
+.PHONY : _CF/1998C.cpp.i
+
+_CF/1998C.s: _CF/1998C.cpp.s
+.PHONY : _CF/1998C.s
+
+# target to generate assembly for a file
+_CF/1998C.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1998C.dir/build.make CMakeFiles/1998C.dir/_CF/1998C.cpp.s
+.PHONY : _CF/1998C.cpp.s
 
 _CF/1998D.o: _CF/1998D.cpp.o
 .PHONY : _CF/1998D.o
@@ -229,78 +227,6 @@ _CF/1998E1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/1998E1.dir/build.make CMakeFiles/1998E1.dir/_CF/1998E1.cpp.s
 .PHONY : _CF/1998E1.cpp.s
 
-_CF/2000F.o: _CF/2000F.cpp.o
-.PHONY : _CF/2000F.o
-
-# target to build an object file
-_CF/2000F.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2000F.dir/build.make CMakeFiles/2000F.dir/_CF/2000F.cpp.o
-.PHONY : _CF/2000F.cpp.o
-
-_CF/2000F.i: _CF/2000F.cpp.i
-.PHONY : _CF/2000F.i
-
-# target to preprocess a source file
-_CF/2000F.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2000F.dir/build.make CMakeFiles/2000F.dir/_CF/2000F.cpp.i
-.PHONY : _CF/2000F.cpp.i
-
-_CF/2000F.s: _CF/2000F.cpp.s
-.PHONY : _CF/2000F.s
-
-# target to generate assembly for a file
-_CF/2000F.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2000F.dir/build.make CMakeFiles/2000F.dir/_CF/2000F.cpp.s
-.PHONY : _CF/2000F.cpp.s
-
-_CF/2000H.o: _CF/2000H.cpp.o
-.PHONY : _CF/2000H.o
-
-# target to build an object file
-_CF/2000H.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2000H.dir/build.make CMakeFiles/2000H.dir/_CF/2000H.cpp.o
-.PHONY : _CF/2000H.cpp.o
-
-_CF/2000H.i: _CF/2000H.cpp.i
-.PHONY : _CF/2000H.i
-
-# target to preprocess a source file
-_CF/2000H.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2000H.dir/build.make CMakeFiles/2000H.dir/_CF/2000H.cpp.i
-.PHONY : _CF/2000H.cpp.i
-
-_CF/2000H.s: _CF/2000H.cpp.s
-.PHONY : _CF/2000H.s
-
-# target to generate assembly for a file
-_CF/2000H.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2000H.dir/build.make CMakeFiles/2000H.dir/_CF/2000H.cpp.s
-.PHONY : _CF/2000H.cpp.s
-
-_Sample/test.o: _Sample/test.cpp.o
-.PHONY : _Sample/test.o
-
-# target to build an object file
-_Sample/test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/_Sample/test.cpp.o
-.PHONY : _Sample/test.cpp.o
-
-_Sample/test.i: _Sample/test.cpp.i
-.PHONY : _Sample/test.i
-
-# target to preprocess a source file
-_Sample/test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/_Sample/test.cpp.i
-.PHONY : _Sample/test.cpp.i
-
-_Sample/test.s: _Sample/test.cpp.s
-.PHONY : _Sample/test.s
-
-# target to generate assembly for a file
-_Sample/test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/_Sample/test.cpp.s
-.PHONY : _Sample/test.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -309,26 +235,18 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... 1998C"
 	@echo "... 1998D"
 	@echo "... 1998E1"
-	@echo "... 2000F"
-	@echo "... 2000H"
-	@echo "... test"
+	@echo "... _CF/1998C.o"
+	@echo "... _CF/1998C.i"
+	@echo "... _CF/1998C.s"
 	@echo "... _CF/1998D.o"
 	@echo "... _CF/1998D.i"
 	@echo "... _CF/1998D.s"
 	@echo "... _CF/1998E1.o"
 	@echo "... _CF/1998E1.i"
 	@echo "... _CF/1998E1.s"
-	@echo "... _CF/2000F.o"
-	@echo "... _CF/2000F.i"
-	@echo "... _CF/2000F.s"
-	@echo "... _CF/2000H.o"
-	@echo "... _CF/2000H.i"
-	@echo "... _CF/2000H.s"
-	@echo "... _Sample/test.o"
-	@echo "... _Sample/test.i"
-	@echo "... _Sample/test.s"
 .PHONY : help
 
 
