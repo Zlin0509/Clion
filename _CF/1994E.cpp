@@ -19,7 +19,7 @@ inline void Zlin() {
     vi a(n);
     for (int i = 0; i < n; i++) {
         cin >> a[i];
-        for (int j = 1, x; j <= a[i]; j++) cin >> x;
+        for (int j = 1, x; j < a[i]; j++) cin >> x;
     }
     sort(a.begin(), a.end(), greater<int>());
     int ans = 0;
