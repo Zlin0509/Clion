@@ -4,4 +4,5 @@ project(Clion)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(test _Sample/test.cpp)
-add_executable(1994E _CF/1994E.cpp)
+add_executable(1992G _CF/1992G.cpp)
+add_executable(1992F _CF/1992F.cpp)
