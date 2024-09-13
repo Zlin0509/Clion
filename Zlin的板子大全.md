@@ -763,19 +763,17 @@ bool cmp(vector<int>& A, vector<int>& B)
 
 #### 预处理法,乘法逆元
 
->
-><img src="组合乘法逆元.png" style="zoom:80%;" />
->**适用范围**：n，m在1e5以内，且取模的数mod为素数时
->利用快速幂求逆元
->
+**适用范围**：n，m在1e5以内，且取模的数mod为素数时
+利用快速幂求逆元
+
 >```c++
 >inline void init() // 预处理，fac[]表示阶乘, inf[]表示阶乘的逆元
 >{
 >fac[0] = inf[0] = 1;
 >for (int i = 1; i <= N; i++)
 >{
->   fac[i] = fac[i - 1] * i % mod;
->   inf[i] = inf[i - 1] * quick_pow(i, mod - 2) % mod;
+>fac[i] = fac[i - 1] * i % mod;
+>inf[i] = inf[i - 1] * quick_pow(i, mod - 2) % mod;
 >}
 >}
 >```
@@ -786,13 +784,13 @@ bool cmp(vector<int>& A, vector<int>& B)
 
 #### 无向图找环
 
-##### DFS
+DFS
 
+DSU
 
+#### 判断奇数环和偶数环
 
-##### DSU
-
-
+##### 二分图染色法
 
 ### 最短路算法
 
