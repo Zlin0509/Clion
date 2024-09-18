@@ -177,6 +177,126 @@
 					<DistClean command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="1991D">
+				<Option output="/Users/zlin/Desktop/Code/Clion/cmake-build-debug/1991D" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zlin/Desktop/Code/Clion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1991D"/>
+					<CompileFile command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1991D/fast">
+				<Option output="/Users/zlin/Desktop/Code/Clion/cmake-build-debug/1991D" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zlin/Desktop/Code/Clion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1991D/fast"/>
+					<CompileFile command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1988D">
+				<Option output="/Users/zlin/Desktop/Code/Clion/cmake-build-debug/1988D" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zlin/Desktop/Code/Clion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1988D"/>
+					<CompileFile command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1988D/fast">
+				<Option output="/Users/zlin/Desktop/Code/Clion/cmake-build-debug/1988D" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zlin/Desktop/Code/Clion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1988D/fast"/>
+					<CompileFile command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1987E">
+				<Option output="/Users/zlin/Desktop/Code/Clion/cmake-build-debug/1987E" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zlin/Desktop/Code/Clion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1987E"/>
+					<CompileFile command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1987E/fast">
+				<Option output="/Users/zlin/Desktop/Code/Clion/cmake-build-debug/1987E" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zlin/Desktop/Code/Clion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1987E/fast"/>
+					<CompileFile command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j11 -f &quot;/Users/zlin/Desktop/Code/Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/Users/zlin/Desktop/Code/Clion/cmake-build-debug"/>
 				<Option type="4"/>
@@ -198,6 +318,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/zlin/Desktop/Code/Clion/_CF/1987E.cpp">
+			<Option target="1987E"/>
+		</Unit>
+		<Unit filename="/Users/zlin/Desktop/Code/Clion/_CF/1988D.cpp">
+			<Option target="1988D"/>
+		</Unit>
+		<Unit filename="/Users/zlin/Desktop/Code/Clion/_CF/1991D.cpp">
+			<Option target="1991D"/>
+		</Unit>
 		<Unit filename="/Users/zlin/Desktop/Code/Clion/_CF/1991E.cpp">
 			<Option target="1991E"/>
 		</Unit>

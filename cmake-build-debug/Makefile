@@ -168,6 +168,117 @@ test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/1991F.dir/build.make CMakeFiles/1991F.dir/build
 .PHONY : 1991F/fast
 
+#=============================================================================
+# Target rules for targets named 1991D
+
+# Build rule for target.
+1991D: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1991D
+.PHONY : 1991D
+
+# fast build rule for target.
+1991D/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1991D.dir/build.make CMakeFiles/1991D.dir/build
+.PHONY : 1991D/fast
+
+#=============================================================================
+# Target rules for targets named 1988D
+
+# Build rule for target.
+1988D: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1988D
+.PHONY : 1988D
+
+# fast build rule for target.
+1988D/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1988D.dir/build.make CMakeFiles/1988D.dir/build
+.PHONY : 1988D/fast
+
+#=============================================================================
+# Target rules for targets named 1987E
+
+# Build rule for target.
+1987E: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1987E
+.PHONY : 1987E
+
+# fast build rule for target.
+1987E/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1987E.dir/build.make CMakeFiles/1987E.dir/build
+.PHONY : 1987E/fast
+
+_CF/1987E.o: _CF/1987E.cpp.o
+.PHONY : _CF/1987E.o
+
+# target to build an object file
+_CF/1987E.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1987E.dir/build.make CMakeFiles/1987E.dir/_CF/1987E.cpp.o
+.PHONY : _CF/1987E.cpp.o
+
+_CF/1987E.i: _CF/1987E.cpp.i
+.PHONY : _CF/1987E.i
+
+# target to preprocess a source file
+_CF/1987E.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1987E.dir/build.make CMakeFiles/1987E.dir/_CF/1987E.cpp.i
+.PHONY : _CF/1987E.cpp.i
+
+_CF/1987E.s: _CF/1987E.cpp.s
+.PHONY : _CF/1987E.s
+
+# target to generate assembly for a file
+_CF/1987E.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1987E.dir/build.make CMakeFiles/1987E.dir/_CF/1987E.cpp.s
+.PHONY : _CF/1987E.cpp.s
+
+_CF/1988D.o: _CF/1988D.cpp.o
+.PHONY : _CF/1988D.o
+
+# target to build an object file
+_CF/1988D.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1988D.dir/build.make CMakeFiles/1988D.dir/_CF/1988D.cpp.o
+.PHONY : _CF/1988D.cpp.o
+
+_CF/1988D.i: _CF/1988D.cpp.i
+.PHONY : _CF/1988D.i
+
+# target to preprocess a source file
+_CF/1988D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1988D.dir/build.make CMakeFiles/1988D.dir/_CF/1988D.cpp.i
+.PHONY : _CF/1988D.cpp.i
+
+_CF/1988D.s: _CF/1988D.cpp.s
+.PHONY : _CF/1988D.s
+
+# target to generate assembly for a file
+_CF/1988D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1988D.dir/build.make CMakeFiles/1988D.dir/_CF/1988D.cpp.s
+.PHONY : _CF/1988D.cpp.s
+
+_CF/1991D.o: _CF/1991D.cpp.o
+.PHONY : _CF/1991D.o
+
+# target to build an object file
+_CF/1991D.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1991D.dir/build.make CMakeFiles/1991D.dir/_CF/1991D.cpp.o
+.PHONY : _CF/1991D.cpp.o
+
+_CF/1991D.i: _CF/1991D.cpp.i
+.PHONY : _CF/1991D.i
+
+# target to preprocess a source file
+_CF/1991D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1991D.dir/build.make CMakeFiles/1991D.dir/_CF/1991D.cpp.i
+.PHONY : _CF/1991D.cpp.i
+
+_CF/1991D.s: _CF/1991D.cpp.s
+.PHONY : _CF/1991D.s
+
+# target to generate assembly for a file
+_CF/1991D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1991D.dir/build.make CMakeFiles/1991D.dir/_CF/1991D.cpp.s
+.PHONY : _CF/1991D.cpp.s
+
 _CF/1991E.o: _CF/1991E.cpp.o
 .PHONY : _CF/1991E.o
 
@@ -272,10 +383,22 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... 1987E"
+	@echo "... 1988D"
+	@echo "... 1991D"
 	@echo "... 1991E"
 	@echo "... 1991F"
 	@echo "... 1992G"
 	@echo "... test"
+	@echo "... _CF/1987E.o"
+	@echo "... _CF/1987E.i"
+	@echo "... _CF/1987E.s"
+	@echo "... _CF/1988D.o"
+	@echo "... _CF/1988D.i"
+	@echo "... _CF/1988D.s"
+	@echo "... _CF/1991D.o"
+	@echo "... _CF/1991D.i"
+	@echo "... _CF/1991D.s"
 	@echo "... _CF/1991E.o"
 	@echo "... _CF/1991E.i"
 	@echo "... _CF/1991E.s"
