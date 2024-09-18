@@ -183,6 +183,12 @@ s.upper_bound(k)	返回大于k的第一个元素的迭代器
 >}
 >```
 
+### 左偏树/可并堆
+
+更适合处理合并工作，合并最坏复杂度 logn
+
+
+
 ### 平衡树(Splay)
 
 适合用来维护有序队列
@@ -1044,10 +1050,36 @@ DSU
 >**1、** 割边不属于任意边双，而其它非割边的边都属于且仅属于一个边双。
 >**2、** 对于一个边双中的任意两个点，它们之间都有至少两条**边不重复**的路径。
 >
->```
+>```c++
+>int dfn[N], low[N], cnt, tot;
+>struct edge {
+>    int u, v;
+>};
+>vector<edge> e;
+>vi h[N];
+>struct bridge {
+>    int x, y;
+>} bri[N];
 >
->```
+>inline void add(int x, int y) {
+>    e.push_back({x, y});
+>    h[x].push_back(e.size() - 1);
+>}
 >
+>inline void tarjan(int x, int in_edg) {
+>    dfn[x] = low[x] = ++tot;
+>    for (int i = 0; i < h[x].size(); i++) {
+>        int j = h[x][i], y = e[j].v;
+>        if (!dfn[y]) {
+>            tarjan(y, j);
+>            low[x] = min(low[x], low[y]);
+>            if (low[y] > dfn[x]) //如果low值大于dfn值，说明只能从x到y，为割边
+>                bri[++cnt] = {x, y};
+>        } else if (j != (in_edg ^ 1)) //判断是否为反边
+>            low[x] = min(low[x], dfn[y]);
+>    }
+>}
+>```
 >
 
 ### 拓扑排序

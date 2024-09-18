@@ -11,13 +11,8 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="Clion" targetName="1991D" />
-      <config projectName="Clion" targetName="1992G" />
-      <config projectName="Clion" targetName="1991F" />
-      <config projectName="Clion" targetName="1991E" />
-      <config projectName="Clion" targetName="1988D" />
-      <config projectName="Clion" targetName="1987E" />
-      <config projectName="Clion" targetName="test" />
+      <config projectName="Clion" targetName="1986F" />
+      <config projectName="Clion" targetName="P3377" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -26,24 +21,21 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="324ec42e-2f0b-4dcf-83a9-f483e9025418" name="更改" comment="9.13/end">
-      <change afterPath="$PROJECT_DIR$/_CF/1987E.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_CF/1988D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_CF/1991D.cpp" afterDir="false" />
+    <list default="true" id="324ec42e-2f0b-4dcf-83a9-f483e9025418" name="更改" comment="9.18">
+      <change afterPath="$PROJECT_DIR$/_CF/1986F.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Luogu/P3377.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/1991F.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/1991F.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-fb5887850fc38c1f2f12.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-09-13T12-20-38-0286.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1991E.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1991E.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1991E.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1991E.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1991F.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1991F.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1992G.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1992G.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zlin的板子大全.md" beforeDir="false" afterPath="$PROJECT_DIR$/Zlin的板子大全.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/1991D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/1991D.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-1991E-Debug-dd032cec634d2b66ef45.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-1991F-Debug-c6d904e1704d9e1c7950.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-1992G-Debug-6a8ee3232a5516248bb1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test-Debug-b251d8b09e3870bd5d67.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Clion.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Clion.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
@@ -110,55 +102,25 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="CMake 应用程序.1987E">
+  <component name="RunManager" selected="CMake 应用程序.1986F">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="1987E" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="1987E" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Clion" RUN_TARGET_NAME="1987E">
+    <configuration name="1986F" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="1986F" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Clion" RUN_TARGET_NAME="1986F">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="1988D" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="1988D" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Clion" RUN_TARGET_NAME="1988D">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="1991D" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="1991D" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Clion" RUN_TARGET_NAME="1991D">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="1991E" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="1991E" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Clion" RUN_TARGET_NAME="1991E">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="1991F" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="1991F" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Clion" RUN_TARGET_NAME="1991F">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="1992G" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="1992G" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Clion" RUN_TARGET_NAME="1992G">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Clion" RUN_TARGET_NAME="test">
+    <configuration name="P3377" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="P3377" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Clion" RUN_TARGET_NAME="P3377">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake 应用程序.1987E" />
-      <item itemvalue="CMake 应用程序.1988D" />
-      <item itemvalue="CMake 应用程序.1991D" />
-      <item itemvalue="CMake 应用程序.1991E" />
-      <item itemvalue="CMake 应用程序.1991F" />
-      <item itemvalue="CMake 应用程序.1992G" />
-      <item itemvalue="CMake 应用程序.test" />
+      <item itemvalue="CMake 应用程序.1986F" />
+      <item itemvalue="CMake 应用程序.P3377" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
@@ -171,7 +133,7 @@
       <updated>1726202505289</updated>
       <workItem from="1726202506776" duration="852000" />
       <workItem from="1726203364939" duration="1995000" />
-      <workItem from="1726627433914" duration="1270000" />
+      <workItem from="1726627433914" duration="4526000" />
     </task>
     <task id="LOCAL-00001" summary="9.12/end">
       <option name="closed" value="true" />
@@ -213,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726234813560</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="9.18">
+      <option name="closed" value="true" />
+      <created>1726629733562</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726629733562</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +209,7 @@
     <MESSAGE value="9.12/end" />
     <MESSAGE value="9.13" />
     <MESSAGE value="9.13/end" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.13/end" />
+    <MESSAGE value="9.18" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.18" />
   </component>
 </project>

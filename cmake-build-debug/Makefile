@@ -117,263 +117,78 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test
+# Target rules for targets named P3377
 
 # Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
-.PHONY : test
+P3377: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 P3377
+.PHONY : P3377
 
 # fast build rule for target.
-test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
+P3377/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3377.dir/build.make CMakeFiles/P3377.dir/build
+.PHONY : P3377/fast
 
 #=============================================================================
-# Target rules for targets named 1992G
+# Target rules for targets named 1986F
 
 # Build rule for target.
-1992G: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1992G
-.PHONY : 1992G
+1986F: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1986F
+.PHONY : 1986F
 
 # fast build rule for target.
-1992G/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1992G.dir/build.make CMakeFiles/1992G.dir/build
-.PHONY : 1992G/fast
+1986F/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1986F.dir/build.make CMakeFiles/1986F.dir/build
+.PHONY : 1986F/fast
 
-#=============================================================================
-# Target rules for targets named 1991E
-
-# Build rule for target.
-1991E: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1991E
-.PHONY : 1991E
-
-# fast build rule for target.
-1991E/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1991E.dir/build.make CMakeFiles/1991E.dir/build
-.PHONY : 1991E/fast
-
-#=============================================================================
-# Target rules for targets named 1991F
-
-# Build rule for target.
-1991F: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1991F
-.PHONY : 1991F
-
-# fast build rule for target.
-1991F/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1991F.dir/build.make CMakeFiles/1991F.dir/build
-.PHONY : 1991F/fast
-
-#=============================================================================
-# Target rules for targets named 1991D
-
-# Build rule for target.
-1991D: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1991D
-.PHONY : 1991D
-
-# fast build rule for target.
-1991D/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1991D.dir/build.make CMakeFiles/1991D.dir/build
-.PHONY : 1991D/fast
-
-#=============================================================================
-# Target rules for targets named 1988D
-
-# Build rule for target.
-1988D: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1988D
-.PHONY : 1988D
-
-# fast build rule for target.
-1988D/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1988D.dir/build.make CMakeFiles/1988D.dir/build
-.PHONY : 1988D/fast
-
-#=============================================================================
-# Target rules for targets named 1987E
-
-# Build rule for target.
-1987E: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1987E
-.PHONY : 1987E
-
-# fast build rule for target.
-1987E/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1987E.dir/build.make CMakeFiles/1987E.dir/build
-.PHONY : 1987E/fast
-
-_CF/1987E.o: _CF/1987E.cpp.o
-.PHONY : _CF/1987E.o
+_CF/1986F.o: _CF/1986F.cpp.o
+.PHONY : _CF/1986F.o
 
 # target to build an object file
-_CF/1987E.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1987E.dir/build.make CMakeFiles/1987E.dir/_CF/1987E.cpp.o
-.PHONY : _CF/1987E.cpp.o
+_CF/1986F.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1986F.dir/build.make CMakeFiles/1986F.dir/_CF/1986F.cpp.o
+.PHONY : _CF/1986F.cpp.o
 
-_CF/1987E.i: _CF/1987E.cpp.i
-.PHONY : _CF/1987E.i
+_CF/1986F.i: _CF/1986F.cpp.i
+.PHONY : _CF/1986F.i
 
 # target to preprocess a source file
-_CF/1987E.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1987E.dir/build.make CMakeFiles/1987E.dir/_CF/1987E.cpp.i
-.PHONY : _CF/1987E.cpp.i
+_CF/1986F.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1986F.dir/build.make CMakeFiles/1986F.dir/_CF/1986F.cpp.i
+.PHONY : _CF/1986F.cpp.i
 
-_CF/1987E.s: _CF/1987E.cpp.s
-.PHONY : _CF/1987E.s
+_CF/1986F.s: _CF/1986F.cpp.s
+.PHONY : _CF/1986F.s
 
 # target to generate assembly for a file
-_CF/1987E.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1987E.dir/build.make CMakeFiles/1987E.dir/_CF/1987E.cpp.s
-.PHONY : _CF/1987E.cpp.s
+_CF/1986F.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1986F.dir/build.make CMakeFiles/1986F.dir/_CF/1986F.cpp.s
+.PHONY : _CF/1986F.cpp.s
 
-_CF/1988D.o: _CF/1988D.cpp.o
-.PHONY : _CF/1988D.o
+_Luogu/P3377.o: _Luogu/P3377.cpp.o
+.PHONY : _Luogu/P3377.o
 
 # target to build an object file
-_CF/1988D.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1988D.dir/build.make CMakeFiles/1988D.dir/_CF/1988D.cpp.o
-.PHONY : _CF/1988D.cpp.o
+_Luogu/P3377.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3377.dir/build.make CMakeFiles/P3377.dir/_Luogu/P3377.cpp.o
+.PHONY : _Luogu/P3377.cpp.o
 
-_CF/1988D.i: _CF/1988D.cpp.i
-.PHONY : _CF/1988D.i
-
-# target to preprocess a source file
-_CF/1988D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1988D.dir/build.make CMakeFiles/1988D.dir/_CF/1988D.cpp.i
-.PHONY : _CF/1988D.cpp.i
-
-_CF/1988D.s: _CF/1988D.cpp.s
-.PHONY : _CF/1988D.s
-
-# target to generate assembly for a file
-_CF/1988D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1988D.dir/build.make CMakeFiles/1988D.dir/_CF/1988D.cpp.s
-.PHONY : _CF/1988D.cpp.s
-
-_CF/1991D.o: _CF/1991D.cpp.o
-.PHONY : _CF/1991D.o
-
-# target to build an object file
-_CF/1991D.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1991D.dir/build.make CMakeFiles/1991D.dir/_CF/1991D.cpp.o
-.PHONY : _CF/1991D.cpp.o
-
-_CF/1991D.i: _CF/1991D.cpp.i
-.PHONY : _CF/1991D.i
+_Luogu/P3377.i: _Luogu/P3377.cpp.i
+.PHONY : _Luogu/P3377.i
 
 # target to preprocess a source file
-_CF/1991D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1991D.dir/build.make CMakeFiles/1991D.dir/_CF/1991D.cpp.i
-.PHONY : _CF/1991D.cpp.i
+_Luogu/P3377.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3377.dir/build.make CMakeFiles/P3377.dir/_Luogu/P3377.cpp.i
+.PHONY : _Luogu/P3377.cpp.i
 
-_CF/1991D.s: _CF/1991D.cpp.s
-.PHONY : _CF/1991D.s
-
-# target to generate assembly for a file
-_CF/1991D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1991D.dir/build.make CMakeFiles/1991D.dir/_CF/1991D.cpp.s
-.PHONY : _CF/1991D.cpp.s
-
-_CF/1991E.o: _CF/1991E.cpp.o
-.PHONY : _CF/1991E.o
-
-# target to build an object file
-_CF/1991E.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1991E.dir/build.make CMakeFiles/1991E.dir/_CF/1991E.cpp.o
-.PHONY : _CF/1991E.cpp.o
-
-_CF/1991E.i: _CF/1991E.cpp.i
-.PHONY : _CF/1991E.i
-
-# target to preprocess a source file
-_CF/1991E.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1991E.dir/build.make CMakeFiles/1991E.dir/_CF/1991E.cpp.i
-.PHONY : _CF/1991E.cpp.i
-
-_CF/1991E.s: _CF/1991E.cpp.s
-.PHONY : _CF/1991E.s
+_Luogu/P3377.s: _Luogu/P3377.cpp.s
+.PHONY : _Luogu/P3377.s
 
 # target to generate assembly for a file
-_CF/1991E.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1991E.dir/build.make CMakeFiles/1991E.dir/_CF/1991E.cpp.s
-.PHONY : _CF/1991E.cpp.s
-
-_CF/1991F.o: _CF/1991F.cpp.o
-.PHONY : _CF/1991F.o
-
-# target to build an object file
-_CF/1991F.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1991F.dir/build.make CMakeFiles/1991F.dir/_CF/1991F.cpp.o
-.PHONY : _CF/1991F.cpp.o
-
-_CF/1991F.i: _CF/1991F.cpp.i
-.PHONY : _CF/1991F.i
-
-# target to preprocess a source file
-_CF/1991F.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1991F.dir/build.make CMakeFiles/1991F.dir/_CF/1991F.cpp.i
-.PHONY : _CF/1991F.cpp.i
-
-_CF/1991F.s: _CF/1991F.cpp.s
-.PHONY : _CF/1991F.s
-
-# target to generate assembly for a file
-_CF/1991F.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1991F.dir/build.make CMakeFiles/1991F.dir/_CF/1991F.cpp.s
-.PHONY : _CF/1991F.cpp.s
-
-_CF/1992G.o: _CF/1992G.cpp.o
-.PHONY : _CF/1992G.o
-
-# target to build an object file
-_CF/1992G.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1992G.dir/build.make CMakeFiles/1992G.dir/_CF/1992G.cpp.o
-.PHONY : _CF/1992G.cpp.o
-
-_CF/1992G.i: _CF/1992G.cpp.i
-.PHONY : _CF/1992G.i
-
-# target to preprocess a source file
-_CF/1992G.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1992G.dir/build.make CMakeFiles/1992G.dir/_CF/1992G.cpp.i
-.PHONY : _CF/1992G.cpp.i
-
-_CF/1992G.s: _CF/1992G.cpp.s
-.PHONY : _CF/1992G.s
-
-# target to generate assembly for a file
-_CF/1992G.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1992G.dir/build.make CMakeFiles/1992G.dir/_CF/1992G.cpp.s
-.PHONY : _CF/1992G.cpp.s
-
-_Sample/test.o: _Sample/test.cpp.o
-.PHONY : _Sample/test.o
-
-# target to build an object file
-_Sample/test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/_Sample/test.cpp.o
-.PHONY : _Sample/test.cpp.o
-
-_Sample/test.i: _Sample/test.cpp.i
-.PHONY : _Sample/test.i
-
-# target to preprocess a source file
-_Sample/test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/_Sample/test.cpp.i
-.PHONY : _Sample/test.cpp.i
-
-_Sample/test.s: _Sample/test.cpp.s
-.PHONY : _Sample/test.s
-
-# target to generate assembly for a file
-_Sample/test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/_Sample/test.cpp.s
-.PHONY : _Sample/test.cpp.s
+_Luogu/P3377.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3377.dir/build.make CMakeFiles/P3377.dir/_Luogu/P3377.cpp.s
+.PHONY : _Luogu/P3377.cpp.s
 
 # Help Target
 help:
@@ -383,34 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 1987E"
-	@echo "... 1988D"
-	@echo "... 1991D"
-	@echo "... 1991E"
-	@echo "... 1991F"
-	@echo "... 1992G"
-	@echo "... test"
-	@echo "... _CF/1987E.o"
-	@echo "... _CF/1987E.i"
-	@echo "... _CF/1987E.s"
-	@echo "... _CF/1988D.o"
-	@echo "... _CF/1988D.i"
-	@echo "... _CF/1988D.s"
-	@echo "... _CF/1991D.o"
-	@echo "... _CF/1991D.i"
-	@echo "... _CF/1991D.s"
-	@echo "... _CF/1991E.o"
-	@echo "... _CF/1991E.i"
-	@echo "... _CF/1991E.s"
-	@echo "... _CF/1991F.o"
-	@echo "... _CF/1991F.i"
-	@echo "... _CF/1991F.s"
-	@echo "... _CF/1992G.o"
-	@echo "... _CF/1992G.i"
-	@echo "... _CF/1992G.s"
-	@echo "... _Sample/test.o"
-	@echo "... _Sample/test.i"
-	@echo "... _Sample/test.s"
+	@echo "... 1986F"
+	@echo "... P3377"
+	@echo "... _CF/1986F.o"
+	@echo "... _CF/1986F.i"
+	@echo "... _CF/1986F.s"
+	@echo "... _Luogu/P3377.o"
+	@echo "... _Luogu/P3377.i"
+	@echo "... _Luogu/P3377.s"
 .PHONY : help
 
 
