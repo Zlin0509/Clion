@@ -1,5 +1,5 @@
 //
-// Created by Zlin on 2024/9/19.
+// Created by Zlin on 2024/9/20.
 //
 
 #include "bits/stdc++.h"
@@ -13,13 +13,17 @@ typedef vector<long long> vll;
 typedef pair<int, int> pii;
 typedef pair<long long, long long> pll;
 
-const int N = 4e5 + 5;
-int n, a[N];
-
 inline void Zlin() {
-    cin >> n;
-    for (int i = 1; i <= n; i++) cin >> a[i];
-
+    int a, b, c, ans = 0;
+    cin >> a >> b >> c;
+    for (int i = 0; i <= 5; i++) {
+        for (int j = 0; i + j <= 5; j++) {
+            for (int q = 0; i + j + q <= 5; q++) {
+                ans = max(ans, (a + i) * (b + j) * (c + q));
+            }
+        }
+    }
+    cout << ans << '\n';
 }
 
 int main() {

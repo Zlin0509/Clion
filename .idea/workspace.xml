@@ -11,13 +11,8 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="Clion" targetName="2007C" />
-      <config projectName="Clion" targetName="2007B" />
-      <config projectName="Clion" targetName="2007A" />
-      <config projectName="Clion" targetName="1986G1" />
-      <config projectName="Clion" targetName="2007F" />
-      <config projectName="Clion" targetName="2007E" />
-      <config projectName="Clion" targetName="2007D" />
+      <config projectName="Clion" targetName="1980G" />
+      <config projectName="Clion" targetName="1980F2" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -27,13 +22,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="094e9100-b9c4-4bcb-8f1a-50272aa5702b" name="更改" comment="9.19">
-      <change afterPath="$PROJECT_DIR$/_CF/2007F.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/1980/1980F2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/1980/1980G.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/1992/1992A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/1992/1992B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/1992/1992C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/1992/1992D.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/2007E.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/2007E.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-054015e10042f6918798.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-09-19T07-21-44-0138.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/1980E.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/1980/1980E.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/1980F1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/1980/1980F1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/1992E.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/1992/1992E.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/1992F.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/1992/1992F.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/1992G.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/1992/1992G.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/2007A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/2007/2007A.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/2007B.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/2007/2007B.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/2007C.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/2007/2007C.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/2007D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/2007/2007D.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/2007E.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/2007/2007E.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/2007F.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/2007/2007F.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-976081f1ae1ebbba5437.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-09-19T11-48-39-0894.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-1986G1-Debug-fba13210f5ed22fdf6ad.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-2007A-Debug-4bc54ecb996ac9e2b51c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-2007B-Debug-2675417639822e90d635.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-2007C-Debug-a80780544b05dc5ec3e1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-2007D-Debug-6f39db60d64bbe3dc901.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-2007E-Debug-4576b816be58805c8edf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-2007F-Debug-6b4cb2ccf9f09e97c63c.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
@@ -84,12 +101,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "CMake 应用程序.1980F2.executor": "Run",
     "CMake 应用程序.1986G1.executor": "Run",
+    "CMake 应用程序.1992A.executor": "Run",
+    "CMake 应用程序.1992B.executor": "Run",
+    "CMake 应用程序.1992C.executor": "Run",
+    "CMake 应用程序.1992D.executor": "Run",
     "CMake 应用程序.2007A.executor": "Run",
     "CMake 应用程序.2007B.executor": "Run",
     "CMake 应用程序.2007C.executor": "Run",
     "CMake 应用程序.2007D.executor": "Run",
     "CMake 应用程序.2007E.executor": "Run",
+    "CMake 应用程序.2007F.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
@@ -104,55 +128,32 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="CMake 应用程序.2007F">
-    <configuration name="1986G1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="1986G1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Clion" RUN_TARGET_NAME="1986G1">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_CF/1980" />
+      <recent name="$PROJECT_DIR$/_CF/1992" />
+      <recent name="$PROJECT_DIR$/_CF/2007" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake 应用程序.1980F2">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="1980F2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="1980F2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Clion" RUN_TARGET_NAME="1980F2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="2007A" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="2007A" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Clion" RUN_TARGET_NAME="2007A">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="2007B" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="2007B" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Clion" RUN_TARGET_NAME="2007B">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="2007C" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="2007C" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Clion" RUN_TARGET_NAME="2007C">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="2007D" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="2007D" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Clion" RUN_TARGET_NAME="2007D">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="2007E" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="2007E" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Clion" RUN_TARGET_NAME="2007E">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="2007F" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="2007F" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Clion" RUN_TARGET_NAME="2007F">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="1980G" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="1980G" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Clion" RUN_TARGET_NAME="1980G">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake 应用程序.1986G1" />
-      <item itemvalue="CMake 应用程序.2007A" />
-      <item itemvalue="CMake 应用程序.2007B" />
-      <item itemvalue="CMake 应用程序.2007C" />
-      <item itemvalue="CMake 应用程序.2007D" />
-      <item itemvalue="CMake 应用程序.2007E" />
-      <item itemvalue="CMake 应用程序.2007F" />
+      <item itemvalue="CMake 应用程序.1980F2" />
+      <item itemvalue="CMake 应用程序.1980G" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
@@ -164,7 +165,8 @@
       <option name="presentableId" value="Default" />
       <updated>1726657038240</updated>
       <workItem from="1726657039462" duration="2088000" />
-      <workItem from="1726659138699" duration="15538000" />
+      <workItem from="1726659138699" duration="24763000" />
+      <workItem from="1726832623630" duration="5248000" />
     </task>
     <task id="LOCAL-00001" summary="9.19">
       <option name="closed" value="true" />
@@ -174,7 +176,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726731352777</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="9.19">
+      <option name="closed" value="true" />
+      <created>1726747268260</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726747268260</updated>
+    </task>
+    <task id="LOCAL-00003" summary="9.19">
+      <option name="closed" value="true" />
+      <created>1726752327298</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726752327298</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +204,7 @@
     <isAutomaticReloadCMake value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="9.19" />
     <option name="LAST_COMMIT_MESSAGE" value="9.19" />
   </component>
@@ -193,12 +212,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/_CF/2007A.cpp</url>
+          <url>file://$PROJECT_DIR$/_CF/2007/2007A.cpp</url>
           <line>21</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/_CF/2007D.cpp</url>
+          <url>file://$PROJECT_DIR$/_CF/2007/2007D.cpp</url>
           <line>42</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -206,7 +225,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
-        <watch expression="cnt[i]" language="ObjectiveC" />
+        <watch expression="cnt" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>
