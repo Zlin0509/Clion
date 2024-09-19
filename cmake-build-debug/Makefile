@@ -117,78 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named P3377
+# Target rules for targets named 1986G1
 
 # Build rule for target.
-P3377: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 P3377
-.PHONY : P3377
+1986G1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1986G1
+.PHONY : 1986G1
 
 # fast build rule for target.
-P3377/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3377.dir/build.make CMakeFiles/P3377.dir/build
-.PHONY : P3377/fast
+1986G1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1986G1.dir/build.make CMakeFiles/1986G1.dir/build
+.PHONY : 1986G1/fast
 
-#=============================================================================
-# Target rules for targets named 1986F
-
-# Build rule for target.
-1986F: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1986F
-.PHONY : 1986F
-
-# fast build rule for target.
-1986F/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1986F.dir/build.make CMakeFiles/1986F.dir/build
-.PHONY : 1986F/fast
-
-_CF/1986F.o: _CF/1986F.cpp.o
-.PHONY : _CF/1986F.o
+_CF/1986G1.o: _CF/1986G1.cpp.o
+.PHONY : _CF/1986G1.o
 
 # target to build an object file
-_CF/1986F.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1986F.dir/build.make CMakeFiles/1986F.dir/_CF/1986F.cpp.o
-.PHONY : _CF/1986F.cpp.o
+_CF/1986G1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1986G1.dir/build.make CMakeFiles/1986G1.dir/_CF/1986G1.cpp.o
+.PHONY : _CF/1986G1.cpp.o
 
-_CF/1986F.i: _CF/1986F.cpp.i
-.PHONY : _CF/1986F.i
-
-# target to preprocess a source file
-_CF/1986F.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1986F.dir/build.make CMakeFiles/1986F.dir/_CF/1986F.cpp.i
-.PHONY : _CF/1986F.cpp.i
-
-_CF/1986F.s: _CF/1986F.cpp.s
-.PHONY : _CF/1986F.s
-
-# target to generate assembly for a file
-_CF/1986F.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1986F.dir/build.make CMakeFiles/1986F.dir/_CF/1986F.cpp.s
-.PHONY : _CF/1986F.cpp.s
-
-_Luogu/P3377.o: _Luogu/P3377.cpp.o
-.PHONY : _Luogu/P3377.o
-
-# target to build an object file
-_Luogu/P3377.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3377.dir/build.make CMakeFiles/P3377.dir/_Luogu/P3377.cpp.o
-.PHONY : _Luogu/P3377.cpp.o
-
-_Luogu/P3377.i: _Luogu/P3377.cpp.i
-.PHONY : _Luogu/P3377.i
+_CF/1986G1.i: _CF/1986G1.cpp.i
+.PHONY : _CF/1986G1.i
 
 # target to preprocess a source file
-_Luogu/P3377.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3377.dir/build.make CMakeFiles/P3377.dir/_Luogu/P3377.cpp.i
-.PHONY : _Luogu/P3377.cpp.i
+_CF/1986G1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1986G1.dir/build.make CMakeFiles/1986G1.dir/_CF/1986G1.cpp.i
+.PHONY : _CF/1986G1.cpp.i
 
-_Luogu/P3377.s: _Luogu/P3377.cpp.s
-.PHONY : _Luogu/P3377.s
+_CF/1986G1.s: _CF/1986G1.cpp.s
+.PHONY : _CF/1986G1.s
 
 # target to generate assembly for a file
-_Luogu/P3377.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3377.dir/build.make CMakeFiles/P3377.dir/_Luogu/P3377.cpp.s
-.PHONY : _Luogu/P3377.cpp.s
+_CF/1986G1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1986G1.dir/build.make CMakeFiles/1986G1.dir/_CF/1986G1.cpp.s
+.PHONY : _CF/1986G1.cpp.s
 
 # Help Target
 help:
@@ -198,14 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 1986F"
-	@echo "... P3377"
-	@echo "... _CF/1986F.o"
-	@echo "... _CF/1986F.i"
-	@echo "... _CF/1986F.s"
-	@echo "... _Luogu/P3377.o"
-	@echo "... _Luogu/P3377.i"
-	@echo "... _Luogu/P3377.s"
+	@echo "... 1986G1"
+	@echo "... _CF/1986G1.o"
+	@echo "... _CF/1986G1.i"
+	@echo "... _CF/1986G1.s"
 .PHONY : help
 
 

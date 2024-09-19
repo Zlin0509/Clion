@@ -41,35 +41,190 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/zlin/Desktop/Code/Clion/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target test
+# Object build statements for EXECUTABLE target 1986G1
 
 
 #############################################
-# Order-only phony target for test
+# Order-only phony target for 1986G1
 
-build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
+build cmake_object_order_depends_target_1986G1: phony || CMakeFiles/1986G1.dir
 
-build CMakeFiles/test.dir/_Sample/test.cpp.o: CXX_COMPILER__test_unscanned_Debug /Users/zlin/Desktop/Code/Clion/_Sample/test.cpp || cmake_object_order_depends_target_test
-  DEP_FILE = CMakeFiles/test.dir/_Sample/test.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/test.dir
-  OBJECT_FILE_DIR = CMakeFiles/test.dir/_Sample
+build CMakeFiles/1986G1.dir/_CF/1986G1&G2.cpp.o: CXX_COMPILER__1986G1_unscanned_Debug /Users/zlin/Desktop/Code/Clion/_CF/1986G1&G2.cpp || cmake_object_order_depends_target_1986G1
+  DEP_FILE = "CMakeFiles/1986G1.dir/_CF/1986G1&G2.cpp.o.d"
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1986G1.dir
+  OBJECT_FILE_DIR = CMakeFiles/1986G1.dir/_CF
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target test
+# Link build statements for EXECUTABLE target 1986G1
 
 
 #############################################
-# Link the executable test
+# Link the executable 1986G1
 
-build test: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/_Sample/test.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/test.dir
+build 1986G1: CXX_EXECUTABLE_LINKER__1986G1_Debug CMakeFiles/1986G1.dir/_CF/1986G1&G2.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/1986G1.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = test
-  TARGET_PDB = test.dbg
+  TARGET_FILE = 1986G1
+  TARGET_PDB = 1986G1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2007A
+
+
+#############################################
+# Order-only phony target for 2007A
+
+build cmake_object_order_depends_target_2007A: phony || CMakeFiles/2007A.dir
+
+build CMakeFiles/2007A.dir/_CF/2007A.cpp.o: CXX_COMPILER__2007A_unscanned_Debug /Users/zlin/Desktop/Code/Clion/_CF/2007A.cpp || cmake_object_order_depends_target_2007A
+  DEP_FILE = CMakeFiles/2007A.dir/_CF/2007A.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/2007A.dir
+  OBJECT_FILE_DIR = CMakeFiles/2007A.dir/_CF
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2007A
+
+
+#############################################
+# Link the executable 2007A
+
+build 2007A: CXX_EXECUTABLE_LINKER__2007A_Debug CMakeFiles/2007A.dir/_CF/2007A.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/2007A.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2007A
+  TARGET_PDB = 2007A.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2007B
+
+
+#############################################
+# Order-only phony target for 2007B
+
+build cmake_object_order_depends_target_2007B: phony || CMakeFiles/2007B.dir
+
+build CMakeFiles/2007B.dir/_CF/2007B.cpp.o: CXX_COMPILER__2007B_unscanned_Debug /Users/zlin/Desktop/Code/Clion/_CF/2007B.cpp || cmake_object_order_depends_target_2007B
+  DEP_FILE = CMakeFiles/2007B.dir/_CF/2007B.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/2007B.dir
+  OBJECT_FILE_DIR = CMakeFiles/2007B.dir/_CF
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2007B
+
+
+#############################################
+# Link the executable 2007B
+
+build 2007B: CXX_EXECUTABLE_LINKER__2007B_Debug CMakeFiles/2007B.dir/_CF/2007B.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/2007B.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2007B
+  TARGET_PDB = 2007B.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2007C
+
+
+#############################################
+# Order-only phony target for 2007C
+
+build cmake_object_order_depends_target_2007C: phony || CMakeFiles/2007C.dir
+
+build CMakeFiles/2007C.dir/_CF/2007C.cpp.o: CXX_COMPILER__2007C_unscanned_Debug /Users/zlin/Desktop/Code/Clion/_CF/2007C.cpp || cmake_object_order_depends_target_2007C
+  DEP_FILE = CMakeFiles/2007C.dir/_CF/2007C.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/2007C.dir
+  OBJECT_FILE_DIR = CMakeFiles/2007C.dir/_CF
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2007C
+
+
+#############################################
+# Link the executable 2007C
+
+build 2007C: CXX_EXECUTABLE_LINKER__2007C_Debug CMakeFiles/2007C.dir/_CF/2007C.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/2007C.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2007C
+  TARGET_PDB = 2007C.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2007D
+
+
+#############################################
+# Order-only phony target for 2007D
+
+build cmake_object_order_depends_target_2007D: phony || CMakeFiles/2007D.dir
+
+build CMakeFiles/2007D.dir/_CF/2007D.cpp.o: CXX_COMPILER__2007D_unscanned_Debug /Users/zlin/Desktop/Code/Clion/_CF/2007D.cpp || cmake_object_order_depends_target_2007D
+  DEP_FILE = CMakeFiles/2007D.dir/_CF/2007D.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/2007D.dir
+  OBJECT_FILE_DIR = CMakeFiles/2007D.dir/_CF
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2007D
+
+
+#############################################
+# Link the executable 2007D
+
+build 2007D: CXX_EXECUTABLE_LINKER__2007D_Debug CMakeFiles/2007D.dir/_CF/2007D.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/2007D.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2007D
+  TARGET_PDB = 2007D.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2007E
+
+
+#############################################
+# Order-only phony target for 2007E
+
+build cmake_object_order_depends_target_2007E: phony || CMakeFiles/2007E.dir
+
+build CMakeFiles/2007E.dir/_CF/2007E.cpp.o: CXX_COMPILER__2007E_unscanned_Debug /Users/zlin/Desktop/Code/Clion/_CF/2007E.cpp || cmake_object_order_depends_target_2007E
+  DEP_FILE = CMakeFiles/2007E.dir/_CF/2007E.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/2007E.dir
+  OBJECT_FILE_DIR = CMakeFiles/2007E.dir/_CF
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2007E
+
+
+#############################################
+# Link the executable 2007E
+
+build 2007E: CXX_EXECUTABLE_LINKER__2007E_Debug CMakeFiles/2007E.dir/_CF/2007E.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/2007E.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2007E
+  TARGET_PDB = 2007E.dbg
 
 
 #############################################
@@ -105,7 +260,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/zlin/Desktop/Code/Clion/cmake-build-debug
 
-build all: phony test
+build all: phony 1986G1 2007A 2007B 2007C 2007D 2007E
 
 # =============================================================================
 # Built-in targets
