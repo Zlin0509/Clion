@@ -27,19 +27,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="094e9100-b9c4-4bcb-8f1a-50272aa5702b" name="更改" comment="9.19">
-      <change afterPath="$PROJECT_DIR$/_CF/2007F.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/2007E.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/2007E.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-054015e10042f6918798.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-09-19T07-21-44-0138.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/2007F.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/2007F.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,12 +76,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "CMake 应用程序.1986G1.executor": "Run",
     "CMake 应用程序.2007A.executor": "Run",
     "CMake 应用程序.2007B.executor": "Run",
     "CMake 应用程序.2007C.executor": "Run",
     "CMake 应用程序.2007D.executor": "Run",
     "CMake 应用程序.2007E.executor": "Run",
+    "CMake 应用程序.2007F.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
@@ -164,7 +158,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726657038240</updated>
       <workItem from="1726657039462" duration="2088000" />
-      <workItem from="1726659138699" duration="15538000" />
+      <workItem from="1726659138699" duration="20479000" />
     </task>
     <task id="LOCAL-00001" summary="9.19">
       <option name="closed" value="true" />
@@ -174,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726731352777</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="9.19">
+      <option name="closed" value="true" />
+      <created>1726747268260</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726747268260</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +188,7 @@
     <isAutomaticReloadCMake value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="9.19" />
     <option name="LAST_COMMIT_MESSAGE" value="9.19" />
   </component>
@@ -202,11 +205,18 @@
           <line>42</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_CF/2007F.cpp</url>
+          <line>58</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
-        <watch expression="cnt[i]" language="ObjectiveC" />
+        <watch expression="ans" language="ObjectiveC" />
+        <watch expression="query(l,mid-1)" language="ObjectiveC" />
+        <watch expression="cnt" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>
