@@ -20,7 +20,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -40,7 +41,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -86,6 +88,13 @@
 					"id" : "2007E::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-2007E-Debug-4576b816be58805c8edf.json",
 					"name" : "2007E",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2007F::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2007F-Debug-6b4cb2ccf9f09e97c63c.json",
+					"name" : "2007F",
 					"projectIndex" : 0
 				}
 			]

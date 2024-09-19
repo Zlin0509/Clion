@@ -226,6 +226,37 @@ build 2007E: CXX_EXECUTABLE_LINKER__2007E_Debug CMakeFiles/2007E.dir/_CF/2007E.c
   TARGET_FILE = 2007E
   TARGET_PDB = 2007E.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2007F
+
+
+#############################################
+# Order-only phony target for 2007F
+
+build cmake_object_order_depends_target_2007F: phony || CMakeFiles/2007F.dir
+
+build CMakeFiles/2007F.dir/_CF/2007F.cpp.o: CXX_COMPILER__2007F_unscanned_Debug /Users/zlin/Desktop/Code/Clion/_CF/2007F.cpp || cmake_object_order_depends_target_2007F
+  DEP_FILE = CMakeFiles/2007F.dir/_CF/2007F.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/2007F.dir
+  OBJECT_FILE_DIR = CMakeFiles/2007F.dir/_CF
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2007F
+
+
+#############################################
+# Link the executable 2007F
+
+build 2007F: CXX_EXECUTABLE_LINKER__2007F_Debug CMakeFiles/2007F.dir/_CF/2007F.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/2007F.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2007F
+  TARGET_PDB = 2007F.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -260,7 +291,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/zlin/Desktop/Code/Clion/cmake-build-debug
 
-build all: phony 1986G1 2007A 2007B 2007C 2007D 2007E
+build all: phony 1986G1 2007A 2007B 2007C 2007D 2007E 2007F
 
 # =============================================================================
 # Built-in targets
