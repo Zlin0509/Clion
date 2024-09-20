@@ -21,42 +21,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094e9100-b9c4-4bcb-8f1a-50272aa5702b" name="更改" comment="9.19">
-      <change afterPath="$PROJECT_DIR$/_CF/1980/1980F2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_CF/1980/1980G.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_CF/1992/1992A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_CF/1992/1992B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_CF/1992/1992C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_CF/1992/1992D.cpp" afterDir="false" />
+    <list default="true" id="094e9100-b9c4-4bcb-8f1a-50272aa5702b" name="更改" comment="9.20/end">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/1980E.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/1980/1980E.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/1980F1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/1980/1980F1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/1992E.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/1992/1992E.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/1992F.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/1992/1992F.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/1992G.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/1992/1992G.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/2007A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/2007/2007A.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/2007B.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/2007/2007B.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/2007C.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/2007/2007C.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/2007D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/2007/2007D.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/2007E.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/2007/2007E.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/2007F.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/2007/2007F.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-976081f1ae1ebbba5437.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-09-19T11-48-39-0894.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-1986G1-Debug-fba13210f5ed22fdf6ad.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-2007A-Debug-4bc54ecb996ac9e2b51c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-2007B-Debug-2675417639822e90d635.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-2007C-Debug-a80780544b05dc5ec3e1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-2007D-Debug-6f39db60d64bbe3dc901.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-2007E-Debug-4576b816be58805c8edf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-2007F-Debug-6b4cb2ccf9f09e97c63c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,35 +66,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "CMake 应用程序.1980F2.executor": "Run",
-    "CMake 应用程序.1986G1.executor": "Run",
-    "CMake 应用程序.1992A.executor": "Run",
-    "CMake 应用程序.1992B.executor": "Run",
-    "CMake 应用程序.1992C.executor": "Run",
-    "CMake 应用程序.1992D.executor": "Run",
-    "CMake 应用程序.2007A.executor": "Run",
-    "CMake 应用程序.2007B.executor": "Run",
-    "CMake 应用程序.2007C.executor": "Run",
-    "CMake 应用程序.2007D.executor": "Run",
-    "CMake 应用程序.2007E.executor": "Run",
-    "CMake 应用程序.2007F.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;CMake 应用程序.1980F2.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.1986G1.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.1992A.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.1992B.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.1992C.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.1992D.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.2007A.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.2007B.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.2007C.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.2007D.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.2007E.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.2007F.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_CF/1980" />
@@ -135,7 +102,7 @@
       <recent name="$PROJECT_DIR$/_CF/2007" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.1980F2">
+  <component name="RunManager" selected="CMake 应用程序.1980G">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -166,7 +133,7 @@
       <updated>1726657038240</updated>
       <workItem from="1726657039462" duration="2088000" />
       <workItem from="1726659138699" duration="24763000" />
-      <workItem from="1726832623630" duration="5248000" />
+      <workItem from="1726832623630" duration="5393000" />
     </task>
     <task id="LOCAL-00001" summary="9.19">
       <option name="closed" value="true" />
@@ -192,7 +159,31 @@
       <option name="project" value="LOCAL" />
       <updated>1726752327298</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="9.19">
+      <option name="closed" value="true" />
+      <created>1726837921454</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726837921454</updated>
+    </task>
+    <task id="LOCAL-00005" summary="9.19">
+      <option name="closed" value="true" />
+      <created>1726837929756</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726837929756</updated>
+    </task>
+    <task id="LOCAL-00006" summary="9.20/end">
+      <option name="closed" value="true" />
+      <created>1726837969660</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726837969660</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +197,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="9.19" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.19" />
+    <MESSAGE value="9.20/end" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.20/end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
