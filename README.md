@@ -1,6 +1,6 @@
-# Zlin在Mac平台上的做题记录
+# Zlin在Mac平台上的训练记录
 
-# Codeforces平台统计
+# Codeforces
 ## 2024
 ### Round 969 (Div. 2)  2007  
 9,19 做过的最水的div2，全是贪心，虚标2300压轴还是打表，vp的时候还以为自己真变强了 :(  
