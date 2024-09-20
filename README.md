@@ -1,4 +1,4 @@
-# Zlin在Mac平台上的训练记录
+# Zlin在Mac上的训练日志
 
 # Codeforces
 ## 2024
