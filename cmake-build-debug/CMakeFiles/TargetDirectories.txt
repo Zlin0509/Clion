@@ -1,4 +1,0 @@
-/Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles/1980F2.dir
-/Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles/1980G.dir
-/Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/zlin/Desktop/Code/Clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
