@@ -13,8 +13,11 @@ typedef vector<long long> vll;
 typedef pair<int, int> pii;
 typedef pair<long long, long long> pll;
 
+int n;
+
 inline void Zlin() {
-    
+    cin >> n;
+
 }
 
 int main() {
