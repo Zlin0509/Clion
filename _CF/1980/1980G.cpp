@@ -14,7 +14,7 @@ typedef pair<int, int> pii;
 typedef pair<long long, long long> pll;
 
 inline void Zlin() {
-
+    
 }
 
 int main() {
