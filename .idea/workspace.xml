@@ -13,6 +13,7 @@
     <generated>
       <config projectName="Zlin_Mac" targetName="2009G1" />
       <config projectName="Zlin_Mac" targetName="2010C1" />
+      <config projectName="Zlin_Mac" targetName="2008G" />
       <config projectName="Zlin_Mac" targetName="2009F" />
     </generated>
   </component>
@@ -22,13 +23,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d2942ad-fafa-49c0-896f-62edbc0a1a29" name="更改" comment="9.21">
-      <change afterPath="$PROJECT_DIR$/_CF/2009/2009F.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_CF/2009/2009G1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_CF/2010/2010C1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_CF/2010/2010C2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Luogu/P4151.cpp" afterDir="false" />
+    <list default="true" id="7d2942ad-fafa-49c0-896f-62edbc0a1a29" name="更改" comment="9.24">
+      <change afterPath="$PROJECT_DIR$/_CF/2008/2008G.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/2009/2009F.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/2009/2009F.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +71,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "CMake 应用程序.2009F.executor": "Run",
     "CMake 应用程序.2009G1.executor": "Run",
     "CMake 应用程序.2010C2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -91,12 +90,19 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_CF/2010" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/大头照" />
+      <recent name="$PROJECT_DIR$/_CF/1833" />
+      <recent name="$PROJECT_DIR$/_CF/1927" />
+      <recent name="$PROJECT_DIR$/_CF/1931" />
+      <recent name="$PROJECT_DIR$/_CF/1907" />
+      <recent name="$PROJECT_DIR$/_CF/1941" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.2009F">
+  <component name="RunManager" selected="CMake 应用程序.2008G">
+    <configuration name="2008G" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zlin_Mac" TARGET_NAME="2008G" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zlin_Mac" RUN_TARGET_NAME="2008G">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="2009F" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zlin_Mac" TARGET_NAME="2009F" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zlin_Mac" RUN_TARGET_NAME="2009F">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -118,6 +124,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake 应用程序.2008G" />
       <item itemvalue="CMake 应用程序.2009F" />
       <item itemvalue="CMake 应用程序.2009G1" />
       <item itemvalue="CMake 应用程序.2010C1" />
@@ -132,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726849490781</updated>
       <workItem from="1726849491971" duration="16467000" />
-      <workItem from="1727160939401" duration="5885000" />
+      <workItem from="1727160939401" duration="8394000" />
     </task>
     <task id="LOCAL-00001" summary="9.20/end">
       <option name="closed" value="true" />
@@ -182,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727003137224</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="9.24">
+      <option name="closed" value="true" />
+      <created>1727168807421</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727168807421</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +211,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="9.20/end" />
     <MESSAGE value="9.21" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.21" />
+    <MESSAGE value="9.24" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.24" />
   </component>
 </project>
