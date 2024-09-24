@@ -1,15 +1,20 @@
 //
-// Created by Zlin on 2024/8/28.
+// Created by Zlin on 2024/9/24.
 //
+
 #include "bits/stdc++.h"
 
 using namespace std;
-typedef long long ll;
 
-const ll mo = 998244353;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef vector<int> vi;
+typedef vector<long long> vll;
+typedef pair<int, int> pii;
+typedef pair<long long, long long> pll;
 
 inline void Zlin() {
-    
+
 }
 
 int main() {
