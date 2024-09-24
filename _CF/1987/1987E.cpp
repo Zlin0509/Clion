@@ -13,13 +13,7 @@ typedef vector<long long> vll;
 typedef pair<int, int> pii;
 typedef pair<long long, long long> pll;
 
-const int N = 5005;
-int n;
-int a[N];
-
 inline void Zlin() {
-    cin >> n;
-    for (int i = 1; i <= n; i++) cin >> a[i];
 
 }
 
