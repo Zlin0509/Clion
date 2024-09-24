@@ -11,7 +11,9 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="Zlin_Mac" targetName="A" />
+      <config projectName="Zlin_Mac" targetName="2009G1" />
+      <config projectName="Zlin_Mac" targetName="2010C1" />
+      <config projectName="Zlin_Mac" targetName="2009F" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -21,12 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d2942ad-fafa-49c0-896f-62edbc0a1a29" name="更改" comment="9.21">
-      <change afterPath="$PROJECT_DIR$/_Luogu/P2536.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_nowcoder/61/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_nowcoder/61/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_nowcoder/61/C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/2009/2009F.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/2009/2009G1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/2010/2010C1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/2010/2010C2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Luogu/P4151.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,39 +71,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake 应用程序.2009G1.executor": "Run",
+    "CMake 应用程序.2010C2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_CF/2010" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/大头照" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="A" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zlin_Mac" TARGET_NAME="A" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zlin_Mac" RUN_TARGET_NAME="A">
+  <component name="RunManager" selected="CMake 应用程序.2009F">
+    <configuration name="2009F" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zlin_Mac" TARGET_NAME="2009F" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zlin_Mac" RUN_TARGET_NAME="2009F">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="2009G1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zlin_Mac" TARGET_NAME="2009G1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zlin_Mac" RUN_TARGET_NAME="2009G1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="2010C1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zlin_Mac" TARGET_NAME="2010C1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zlin_Mac" RUN_TARGET_NAME="2010C1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.2009F" />
+      <item itemvalue="CMake 应用程序.2009G1" />
+      <item itemvalue="CMake 应用程序.2010C1" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -111,7 +131,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726849490781</updated>
-      <workItem from="1726849491971" duration="8463000" />
+      <workItem from="1726849491971" duration="16467000" />
+      <workItem from="1727160939401" duration="5885000" />
     </task>
     <task id="LOCAL-00001" summary="9.20/end">
       <option name="closed" value="true" />
@@ -145,11 +166,32 @@
       <option name="project" value="LOCAL" />
       <updated>1726999602110</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="9.21">
+      <option name="closed" value="true" />
+      <created>1727001418451</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727001418451</updated>
+    </task>
+    <task id="LOCAL-00006" summary="9.21">
+      <option name="closed" value="true" />
+      <created>1727003137224</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727003137224</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="9.20/end" />
