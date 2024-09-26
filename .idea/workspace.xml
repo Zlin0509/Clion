@@ -11,7 +11,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="Zlin_Mac" targetName="1984D" />
+      <config projectName="Zlin_Mac" targetName="2003E1" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -20,12 +20,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d2942ad-fafa-49c0-896f-62edbc0a1a29" name="更改" comment="9.24">
-      <change afterPath="$PROJECT_DIR$/_CF/1984/1984D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_CF/1985/1985H2.cpp" afterDir="false" />
+    <list default="true" id="7d2942ad-fafa-49c0-896f-62edbc0a1a29" name="更改" comment="9.25">
+      <change afterPath="$PROJECT_DIR$/_CF/1976/1976D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/2003/2003E1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/2008/2008H.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/1984C2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/1984/1984C2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/1985/1985H1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/1985/1985H1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/1984/1984D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/1984/1984D.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/2003D2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/2003/2003D2.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,12 +71,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "CMake 应用程序.1976D.executor": "Run",
+    "CMake 应用程序.1984D.executor": "Run",
     "CMake 应用程序.1985H1.executor": "Run",
     "CMake 应用程序.1985H2.executor": "Run",
     "CMake 应用程序.1986E.executor": "Run",
     "CMake 应用程序.1987E.executor": "Run",
     "CMake 应用程序.2008E.executor": "Run",
     "CMake 应用程序.2008G.executor": "Run",
+    "CMake 应用程序.2008H.executor": "Run",
     "CMake 应用程序.2009F.executor": "Run",
     "CMake 应用程序.2009G1.executor": "Run",
     "CMake 应用程序.2010C2.executor": "Run",
@@ -95,20 +99,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_CF/2003" />
       <recent name="$PROJECT_DIR$/_CF/1984" />
       <recent name="$PROJECT_DIR$/_CF/1985" />
       <recent name="$PROJECT_DIR$/_CF/1986" />
       <recent name="$PROJECT_DIR$/_CF" />
-      <recent name="$PROJECT_DIR$/_CF/1987" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="1984D" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zlin_Mac" TARGET_NAME="1984D" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zlin_Mac" RUN_TARGET_NAME="1984D">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="2003E1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zlin_Mac" TARGET_NAME="2003E1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zlin_Mac" RUN_TARGET_NAME="2003E1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -125,7 +129,8 @@
       <workItem from="1726849491971" duration="16467000" />
       <workItem from="1727160939401" duration="12253000" />
       <workItem from="1727176862450" duration="13567000" />
-      <workItem from="1727229671540" duration="737000" />
+      <workItem from="1727229671540" duration="4901000" />
+      <workItem from="1727320092846" duration="9539000" />
     </task>
     <task id="LOCAL-00001" summary="9.20/end">
       <option name="closed" value="true" />
@@ -231,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727184016736</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="9.25">
+      <option name="closed" value="true" />
+      <created>1727230431364</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1727230431364</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,15 +259,13 @@
     <MESSAGE value="9.20/end" />
     <MESSAGE value="9.21" />
     <MESSAGE value="9.24" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.24" />
+    <MESSAGE value="9.25" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.25" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
-        <watch expression="fc[i][j]" language="ObjectiveC" />
-        <watch expression="sumx[i]" language="ObjectiveC" />
-        <watch expression="sumy[j]" language="ObjectiveC" />
-        <watch expression="sum[i][j]" language="ObjectiveC" />
+        <watch expression="x" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>
