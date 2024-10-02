@@ -11,9 +11,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="Zlin_Mac" targetName="1998E2" />
-      <config projectName="Zlin_Mac" targetName="2003E1" />
-      <config projectName="Zlin_Mac" targetName="1978F" />
+      <config projectName="Zlin_Mac" targetName="2001E1" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -22,11 +20,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d2942ad-fafa-49c0-896f-62edbc0a1a29" name="更改" comment="9.26">
-      <change afterPath="$PROJECT_DIR$/_CF/1978/1978F.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_CF/1998/1998E2.cpp" afterDir="false" />
+    <list default="true" id="7d2942ad-fafa-49c0-896f-62edbc0a1a29" name="更改" comment="9.30">
+      <change afterPath="$PROJECT_DIR$/_CF/2001/2001E1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/2001/2001E2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/2002/2002D2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Luogu/P2015.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Luogu/P339.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/2003/2003E1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/2003/2003E1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/1998/1998E2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/1998/1998E2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/2002D1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/2002/2002D1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_Luogu/P3391.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_Luogu/P3391.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +81,7 @@
     "CMake 应用程序.1985H2.executor": "Run",
     "CMake 应用程序.1986E.executor": "Run",
     "CMake 应用程序.1987E.executor": "Run",
+    "CMake 应用程序.2002D2.executor": "Run",
     "CMake 应用程序.2003E1.executor": "Run",
     "CMake 应用程序.2008E.executor": "Run",
     "CMake 应用程序.2008G.executor": "Run",
@@ -85,6 +89,7 @@
     "CMake 应用程序.2009F.executor": "Run",
     "CMake 应用程序.2009G1.executor": "Run",
     "CMake 应用程序.2010C2.executor": "Run",
+    "CMake 应用程序.P3391.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
@@ -102,39 +107,24 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_CF/2002" />
       <recent name="$PROJECT_DIR$/_CF/2003" />
       <recent name="$PROJECT_DIR$/_CF/1984" />
       <recent name="$PROJECT_DIR$/_CF/1985" />
       <recent name="$PROJECT_DIR$/_CF/1986" />
-      <recent name="$PROJECT_DIR$/_CF" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.1978F">
+  <component name="RunManager">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="1978F" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zlin_Mac" TARGET_NAME="1978F" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zlin_Mac" RUN_TARGET_NAME="1978F">
+    <configuration name="2001E1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zlin_Mac" TARGET_NAME="2001E1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zlin_Mac" RUN_TARGET_NAME="2001E1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="1998E2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zlin_Mac" TARGET_NAME="1998E2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zlin_Mac" RUN_TARGET_NAME="1998E2">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="2003E1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zlin_Mac" TARGET_NAME="2003E1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zlin_Mac" RUN_TARGET_NAME="2003E1">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="CMake 应用程序.1978F" />
-      <item itemvalue="CMake 应用程序.1998E2" />
-      <item itemvalue="CMake 应用程序.2003E1" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -148,7 +138,7 @@
       <workItem from="1727160939401" duration="12253000" />
       <workItem from="1727176862450" duration="13567000" />
       <workItem from="1727229671540" duration="4901000" />
-      <workItem from="1727320092846" duration="16760000" />
+      <workItem from="1727320092846" duration="21912000" />
     </task>
     <task id="LOCAL-00001" summary="9.20/end">
       <option name="closed" value="true" />
@@ -270,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727335246828</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="9.30">
+      <option name="closed" value="true" />
+      <created>1727712588173</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727712588173</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +285,8 @@
     <MESSAGE value="9.24" />
     <MESSAGE value="9.25" />
     <MESSAGE value="9.26" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.26" />
+    <MESSAGE value="9.30" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.30" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

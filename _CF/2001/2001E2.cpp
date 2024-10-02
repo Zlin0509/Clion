@@ -1,5 +1,5 @@
 //
-// Created by Zlin on 2024/10/1.
+// Created by Zlin on 2024/10/2.
 //
 
 #include "bits/stdc++.h"
@@ -13,10 +13,7 @@ typedef vector<long long> vll;
 typedef pair<int, int> pii;
 typedef pair<long long, long long> pll;
 
-int n, x;
-
 inline void Zlin() {
-    cin >> n >> x;
 
 }
 
