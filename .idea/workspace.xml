@@ -3,15 +3,15 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader">{
-  &quot;useNewFormat&quot;: true
-}</component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="Zlin_Mac" targetName="2001E1" />
+      <config projectName="Zlin_ACM" targetName="2001E1" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -20,16 +20,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d2942ad-fafa-49c0-896f-62edbc0a1a29" name="更改" comment="9.30">
-      <change afterPath="$PROJECT_DIR$/_CF/2001/2001E1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_CF/2001/2001E2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_CF/2002/2002D2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Luogu/P2015.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Luogu/P339.cpp" afterDir="false" />
+    <list default="true" id="38802b48-beb0-41a6-9a8e-7d21688469e3" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/1998/1998E2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/1998/1998E2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/2002D1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/2002/2002D1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_Luogu/P3391.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_Luogu/P3391.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,84 +37,51 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Zlin0509&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Zlin0509"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:Zlin0509/Zlin_Mac.git&quot;,
-    &quot;accountId&quot;: &quot;57206e25-dbee-47b1-b992-a646b2853ff2&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:Zlin0509/Zlin_ACM.git",
+    "accountId": "57206e25-dbee-47b1-b992-a646b2853ff2"
   }
-}</component>
+}]]></component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2024" />
     <option name="minorVersion" value="1.5" />
     <option name="productBranch" value="Classic" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
-}</component>
-  <component name="ProjectId" id="2mLIaEFWL6inypOkPOsHeicO4mN" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2msCODTAmLTwwHcXiRfOo0jXKqx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "CMake 应用程序.1976D.executor": "Run",
-    "CMake 应用程序.1978F.executor": "Run",
-    "CMake 应用程序.1984D.executor": "Run",
-    "CMake 应用程序.1985H1.executor": "Run",
-    "CMake 应用程序.1985H2.executor": "Run",
-    "CMake 应用程序.1986E.executor": "Run",
-    "CMake 应用程序.1987E.executor": "Run",
-    "CMake 应用程序.2002D2.executor": "Run",
-    "CMake 应用程序.2003E1.executor": "Run",
-    "CMake 应用程序.2008E.executor": "Run",
-    "CMake 应用程序.2008G.executor": "Run",
-    "CMake 应用程序.2008H.executor": "Run",
-    "CMake 应用程序.2009F.executor": "Run",
-    "CMake 应用程序.2009G1.executor": "Run",
-    "CMake 应用程序.2010C2.executor": "Run",
-    "CMake 应用程序.P3391.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "language.cpp",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_CF/2002" />
-      <recent name="$PROJECT_DIR$/_CF/2003" />
-      <recent name="$PROJECT_DIR$/_CF/1984" />
-      <recent name="$PROJECT_DIR$/_CF/1985" />
-      <recent name="$PROJECT_DIR$/_CF/1986" />
-    </key>
-  </component>
   <component name="RunManager">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="2001E1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zlin_Mac" TARGET_NAME="2001E1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zlin_Mac" RUN_TARGET_NAME="2001E1">
+    <configuration name="2001E1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zlin_ACM" TARGET_NAME="2001E1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zlin_ACM" RUN_TARGET_NAME="2001E1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -129,183 +90,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="7d2942ad-fafa-49c0-896f-62edbc0a1a29" name="更改" comment="" />
-      <created>1726849490781</created>
+      <changelist id="38802b48-beb0-41a6-9a8e-7d21688469e3" name="更改" comment="" />
+      <created>1727855862529</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1726849490781</updated>
-      <workItem from="1726849491971" duration="16467000" />
-      <workItem from="1727160939401" duration="12253000" />
-      <workItem from="1727176862450" duration="13567000" />
-      <workItem from="1727229671540" duration="4901000" />
-      <workItem from="1727320092846" duration="21912000" />
+      <updated>1727855862529</updated>
+      <workItem from="1727855863607" duration="62000" />
     </task>
-    <task id="LOCAL-00001" summary="9.20/end">
-      <option name="closed" value="true" />
-      <created>1726849602524</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1726849602524</updated>
-    </task>
-    <task id="LOCAL-00002" summary="9.20/end">
-      <option name="closed" value="true" />
-      <created>1726849891061</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1726849891061</updated>
-    </task>
-    <task id="LOCAL-00003" summary="9.20/end">
-      <option name="closed" value="true" />
-      <created>1726849922650</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1726849922650</updated>
-    </task>
-    <task id="LOCAL-00004" summary="9.21">
-      <option name="closed" value="true" />
-      <created>1726999602110</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1726999602110</updated>
-    </task>
-    <task id="LOCAL-00005" summary="9.21">
-      <option name="closed" value="true" />
-      <created>1727001418451</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1727001418451</updated>
-    </task>
-    <task id="LOCAL-00006" summary="9.21">
-      <option name="closed" value="true" />
-      <created>1727003137224</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1727003137224</updated>
-    </task>
-    <task id="LOCAL-00007" summary="9.24">
-      <option name="closed" value="true" />
-      <created>1727168807421</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1727168807421</updated>
-    </task>
-    <task id="LOCAL-00008" summary="9.24">
-      <option name="closed" value="true" />
-      <created>1727171276658</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1727171276658</updated>
-    </task>
-    <task id="LOCAL-00009" summary="9.24">
-      <option name="closed" value="true" />
-      <created>1727171404161</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1727171404161</updated>
-    </task>
-    <task id="LOCAL-00010" summary="9.24">
-      <option name="closed" value="true" />
-      <created>1727177137431</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1727177137431</updated>
-    </task>
-    <task id="LOCAL-00011" summary="9.24">
-      <option name="closed" value="true" />
-      <created>1727179989941</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1727179989941</updated>
-    </task>
-    <task id="LOCAL-00012" summary="9.24">
-      <option name="closed" value="true" />
-      <created>1727180004046</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1727180004046</updated>
-    </task>
-    <task id="LOCAL-00013" summary="9.24">
-      <option name="closed" value="true" />
-      <created>1727184016736</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1727184016736</updated>
-    </task>
-    <task id="LOCAL-00014" summary="9.25">
-      <option name="closed" value="true" />
-      <created>1727230431364</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1727230431364</updated>
-    </task>
-    <task id="LOCAL-00015" summary="9.26">
-      <option name="closed" value="true" />
-      <created>1727335246828</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1727335246828</updated>
-    </task>
-    <task id="LOCAL-00016" summary="9.30">
-      <option name="closed" value="true" />
-      <created>1727712588173</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1727712588173</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VCPKGProject">
-    <isAutomaticCheckingOnLaunch value="false" />
-    <isAutomaticFoundErrors value="true" />
-    <isAutomaticReloadCMake value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="9.20/end" />
-    <MESSAGE value="9.21" />
-    <MESSAGE value="9.24" />
-    <MESSAGE value="9.25" />
-    <MESSAGE value="9.26" />
-    <MESSAGE value="9.30" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.30" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/_CF/1978/1978F.cpp</url>
-          <line>67</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="CMakeRunConfiguration">
-        <watch expression="find(i)" language="ObjectiveC" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
