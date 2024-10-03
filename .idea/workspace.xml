@@ -22,13 +22,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38802b48-beb0-41a6-9a8e-7d21688469e3" name="更改" comment="10，2">
-      <change afterPath="$PROJECT_DIR$/_CF/GYM/The 2024 ICPC Kunming Invitational Contest/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_CF/GYM/The 2024 ICPC Kunming Invitational Contest/G.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_CF/GYM/The 2024 ICPC Kunming Invitational Contest/I.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/2001/2001E1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/2001/2001E1.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="38802b48-beb0-41a6-9a8e-7d21688469e3" name="更改" comment="10，3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +84,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_CF/1988" />
+      <recent name="$PROJECT_DIR$/_CF/1989" />
+      <recent name="$PROJECT_DIR$/_CF/1922" />
+      <recent name="$PROJECT_DIR$/_CF/1945" />
+      <recent name="$PROJECT_DIR$/_CF/1990" />
+    </key>
+  </component>
   <component name="RunManager" selected="CMake 应用程序.I">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
@@ -125,7 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727855862529</updated>
-      <workItem from="1727855863607" duration="5311000" />
+      <workItem from="1727855863607" duration="6092000" />
     </task>
     <task id="LOCAL-00001" summary="10，2">
       <option name="closed" value="true" />
@@ -135,7 +138,31 @@
       <option name="project" value="LOCAL" />
       <updated>1727856002410</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="10，3">
+      <option name="closed" value="true" />
+      <created>1727957330135</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727957330135</updated>
+    </task>
+    <task id="LOCAL-00003" summary="10，3">
+      <option name="closed" value="true" />
+      <created>1727957344179</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727957344179</updated>
+    </task>
+    <task id="LOCAL-00004" summary="10，3">
+      <option name="closed" value="true" />
+      <created>1727957911223</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727957911223</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +175,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="10，2" />
-    <option name="LAST_COMMIT_MESSAGE" value="10，2" />
+    <MESSAGE value="10，3" />
+    <option name="LAST_COMMIT_MESSAGE" value="10，3" />
   </component>
 </project>
