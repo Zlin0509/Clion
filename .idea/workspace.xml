@@ -12,6 +12,7 @@
   <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="Zlin_ACM" targetName="L" />
+      <config projectName="Zlin_ACM" targetName="F" />
       <config projectName="Zlin_ACM" targetName="J" />
       <config projectName="Zlin_ACM" targetName="H" />
     </generated>
@@ -23,9 +24,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38802b48-beb0-41a6-9a8e-7d21688469e3" name="更改" comment="10，5">
-      <change afterPath="$PROJECT_DIR$/_CF/GYM/The 2024 ICPC Kunming Invitational Contest/H.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/GYM/The 2024 ICPC Kunming Invitational Contest/F.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/GYM/The 2024 ICPC Kunming Invitational Contest/L.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/GYM/The 2024 ICPC Kunming Invitational Contest/L.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +75,7 @@
     "CMake 应用程序.A.executor": "Run",
     "CMake 应用程序.B.executor": "Run",
     "CMake 应用程序.E.executor": "Run",
+    "CMake 应用程序.F.executor": "Run",
     "CMake 应用程序.G.executor": "Run",
     "CMake 应用程序.I.executor": "Run",
     "CMake 应用程序.J.executor": "Run",
@@ -105,7 +106,12 @@
       <recent name="$PROJECT_DIR$/_CF/1945" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.L">
+  <component name="RunManager" selected="CMake 应用程序.F">
+    <configuration name="F" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zlin_ACM" TARGET_NAME="F" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zlin_ACM" RUN_TARGET_NAME="F">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="H" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zlin_ACM" TARGET_NAME="H" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zlin_ACM" RUN_TARGET_NAME="H">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -127,6 +133,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake 应用程序.F" />
       <item itemvalue="CMake 应用程序.H" />
       <item itemvalue="CMake 应用程序.J" />
       <item itemvalue="CMake 应用程序.L" />
@@ -141,7 +148,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727855862529</updated>
       <workItem from="1727855863607" duration="42030000" />
-      <workItem from="1728108804097" duration="4078000" />
+      <workItem from="1728108804097" duration="7495000" />
     </task>
     <task id="LOCAL-00001" summary="10，2">
       <option name="closed" value="true" />
@@ -247,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728108514897</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="10，5">
+      <option name="closed" value="true" />
+      <created>1728112899873</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728112899873</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
