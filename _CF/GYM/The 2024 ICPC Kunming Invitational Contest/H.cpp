@@ -15,6 +15,8 @@ typedef vector<long long> vll;
 typedef pair<int, int> pii;
 typedef pair<long long, long long> pll;
 
+const ll mo = 998244353;
+
 inline void Zlin() {
 
 }
