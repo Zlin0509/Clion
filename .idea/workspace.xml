@@ -13,6 +13,7 @@
     <generated>
       <config projectName="Zlin_ACM" targetName="L" />
       <config projectName="Zlin_ACM" targetName="J" />
+      <config projectName="Zlin_ACM" targetName="H" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -21,10 +22,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38802b48-beb0-41a6-9a8e-7d21688469e3" name="更改" comment="10，4">
-      <change afterPath="$PROJECT_DIR$/_CF/GYM/The 2024 ICPC Kunming Invitational Contest/L.cpp" afterDir="false" />
+    <list default="true" id="38802b48-beb0-41a6-9a8e-7d21688469e3" name="更改" comment="10，5">
+      <change afterPath="$PROJECT_DIR$/_CF/GYM/The 2024 ICPC Kunming Invitational Contest/H.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CF/GYM/The 2024 ICPC Kunming Invitational Contest/J.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/GYM/The 2024 ICPC Kunming Invitational Contest/J.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/GYM/The 2024 ICPC Kunming Invitational Contest/L.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/GYM/The 2024 ICPC Kunming Invitational Contest/L.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +78,7 @@
     "CMake 应用程序.G.executor": "Run",
     "CMake 应用程序.I.executor": "Run",
     "CMake 应用程序.J.executor": "Run",
+    "CMake 应用程序.L.executor": "Run",
     "CMake 应用程序.M.executor": "Run",
     "CMake 应用程序.MM.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -104,9 +106,9 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake 应用程序.L">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="H" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zlin_ACM" TARGET_NAME="H" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zlin_ACM" RUN_TARGET_NAME="H">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="J" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zlin_ACM" TARGET_NAME="J" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zlin_ACM" RUN_TARGET_NAME="J">
@@ -119,7 +121,13 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="CMake 应用程序.H" />
       <item itemvalue="CMake 应用程序.J" />
       <item itemvalue="CMake 应用程序.L" />
     </list>
@@ -132,7 +140,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727855862529</updated>
-      <workItem from="1727855863607" duration="41857000" />
+      <workItem from="1727855863607" duration="42030000" />
+      <workItem from="1728108804097" duration="4078000" />
     </task>
     <task id="LOCAL-00001" summary="10，2">
       <option name="closed" value="true" />
@@ -230,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728103013822</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="10，5">
+      <option name="closed" value="true" />
+      <created>1728108514897</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1728108514897</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +262,7 @@
     <MESSAGE value="10，2" />
     <MESSAGE value="10，3" />
     <MESSAGE value="10，4" />
-    <option name="LAST_COMMIT_MESSAGE" value="10，4" />
+    <MESSAGE value="10，5" />
+    <option name="LAST_COMMIT_MESSAGE" value="10，5" />
   </component>
 </project>
