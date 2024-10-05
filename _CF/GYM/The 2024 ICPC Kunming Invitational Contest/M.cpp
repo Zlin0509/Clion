@@ -14,54 +14,52 @@ typedef vector<int> vi;
 typedef vector<long long> vll;
 typedef pair<int, int> pii;
 typedef pair<long long, long long> pll;
-typedef vector<__int128> v128;
+typedef __int128 i128;
 
-ll n, rx, ry, rr, ans;
 struct point {
     ll x, y;
-};
-vector<point> a;
-v128 s;
 
-ll dif(int l, int r) {
-    return a[l].x * a[r].y - a[l].y * a[r].x;
-}
-
-ll cal(int l, int r) {
-    return llabs(s[r] - s[l] + dif(r, l));
-}
-
-bool check(int l, int r) {
-    ll A = a[l].y - a[r].y, B = a[r].x - a[l].x, C = dif(l, r);
-    ldb d = (ldb) (A * rx + B * ry + C) / sqrt(A * A + B * B);
-    d = abs(d);
-    bool c = (d >= rr);
-    if (c) {
-        if (a[l].x == a[r].x) {
-            if (a[l].y > a[r].y && rx <= a[l].x) c = false;
-            if (a[l].y < a[r].y && rx >= a[l].x) c = false;
-        } else {
-            ll res = A * rx + B * ry + C;
-            if (res <= 0) c = false;
-        }
+    point operator-(const point a) const {
+        return {x - a.x, y - a.y};
     }
-    return c;
+
+    ll operator^(const point &a) const {
+        return x * a.y - y * a.x;
+    }
+};
+
+bool check_side(point a, point b, point c, point d) {
+    ll f1 = (c - a) ^ (b - a), f2 = (d - a) ^ (b - a);
+    if ((f1 > 0 && f2 > 0) || (f1 < 0 && f2 < 0)) return 0;
+    return 1;
+}
+
+ll dis(point a, point b) { return (a.x - b.x) * (a.x - b.x) + (a.y - b.y) * (a.y - b.y); }
+
+bool check(point a, point b, point o, i128 r) {
+    i128 len = dis(a, b);
+    i128 s = abs((a - o) ^ (b - o));
+    return len * r * r <= s * s;
 }
 
 inline void Zlin() {
-    cin >> n >> rx >> ry >> rr;
-    a.assign(n * 2, {0, 0});
-    s.assign(n * 2, 0);
-    ans = 0;
-    for (int i = 0; i < n; i++) cin >> a[i].x >> a[i].y, a[i + n] = a[i];
-    for (int i = 1; i < n * 2; i++) s[i] = s[i - 1] + dif(i - 1, i);
-    int l = 0, r = l + 2;
-    while (l < n) {
-        if (check(l, r)) {
-            ans = max(ans, cal(l, r));
+    ll n, rr;
+    point o;
+    cin >> n >> o.x >> o.y >> rr;
+    vector<point> a(n << 1);
+    for (int i = 0; i < n; i++) {
+        cin >> a[i].x >> a[i].y;
+        a[i + n] = a[i];
+    }
+    int l = 0, r = l + 1;
+    ll s = a[0] ^ a[1], ans = 0;
+    for (; l < n; l++) {
+        while (check(a[l], a[r + 1], o, rr) && check_side(a[l], a[r + 1], a[l + 1], o)) {
+            s += a[r] ^ a[r + 1];
             ++r;
-        } else ++l;
-        if (l + 1 == r) ++r;
+            ans = max(ans, abs(s + (a[r] ^ a[l])));
+        }
+        s -= a[l] ^ a[l + 1];
     }
     cout << ans << '\n';
 }
