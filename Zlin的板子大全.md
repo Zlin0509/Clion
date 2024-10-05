@@ -461,6 +461,7 @@ ll query(string s)//查询函数
  * len 必须是 2^k 形式
  * on == 1 时是 DFT，on == -1 时是 IDFT
  */
+typedef complex<double> Complex;
 void fft(Complex y[], int len, int on) {
     // 位逆序置换
     change(y, len);
