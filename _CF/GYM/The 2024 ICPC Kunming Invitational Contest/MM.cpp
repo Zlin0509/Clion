@@ -1,121 +1,71 @@
-#include <iostream>
-#include <vector>
-#include <cmath>
-#include <cstdio>
-#include <cstdlib>
+#include<bits/stdc++.h>
 
 using namespace std;
+#define int long long
+const int n = 1e5 + 5;
 
-typedef long long ll;
-typedef __int128 int128;
-typedef long double ldb;
+struct Point {
+    int x, y;
 
-inline int128 abs128(int128 x) {
-    return x < 0 ? -x : x;
-}
+    Point(int x = 0, int y = 0) : x(x), y(y) {}
 
-inline ll read_ll() {
-    ll x = 0, f = 1;
-    char ch = getchar();
-    while (ch < '0' || ch > '9') {
-        if (ch == '-') f = -1;
-        ch = getchar();
-    }
-    while (ch >= '0' && ch <= '9') {
-        x = (x * 10) + (ch - '0');
-        ch = getchar();
-    }
-    return x * f;
-}
+    Point operator-(const Point &b) const { return Point(x - b.x, y - b.y); }
 
-void print_int128(int128 x) {
-    if (x == 0) {
-        putchar('0');
-        return;
-    }
-    if (x < 0) {
-        putchar('-');
-        x = -x;
-    }
-    char buf[40];
-    int idx = 0;
-    while (x > 0) {
-        buf[idx++] = (x % 10) + '0';
-        x /= 10;
-    }
-    while (idx--) putchar(buf[idx]);
-}
-
-int128 n, rx, ry, rr, ans;
-struct point {
-    int128 x, y;
+    int operator^(const Point &b) const { return x * b.y - b.x * y; }
 };
-vector<point> a;
-vector<int128> s;
 
-int128 dif(int l, int r) {
-    return a[l].x * a[r].y - a[l].y * a[r].x;
+int dis(Point &a, Point &b) {
+    return (a.x - b.x) * (a.x - b.x) + (a.y - b.y) * (a.y - b.y);
 }
 
-int128 cal(int l, int r) {
-    return abs128(s[r] - s[l] + dif(r, l));
+// 向量ab x 同直ac
+int cross(Point a, Point b, Point c) { return (b - a) ^ (c - a); }
+
+// 判断x, y是否在ab两侧
+bool same_side(Point a, Point b, Point x, Point y) {
+    int f1 = cross(a, b, x);
+    int f2 = cross(a, b, y);
+    return (!f1 || !f2 || (f1 > 0 && f2 > 0) || (f1 < 0 && f2 < 0));
 }
 
-bool check(int l, int r) {
-    int128 A = a[l].y - a[r].y;
-    int128 B = a[r].x - a[l].x;
-    int128 C = dif(l, r);
-    ldb d = (ldb)(A * rx + B * ry + C) / sqrt((ldb)(A * A + B * B));
-    d = abs(d);
+bool check(Point o, Point a, Point b, int r) {
+    __int128 len = dis(a, b);
+    __int128 area = abs(cross(o, a, b));
+    return area * area <= len * r * r;
+}
 
-    bool c = (d >= rr);
-    if (c) {
-        if (a[l].x == a[r].x) {
-            if (a[l].y > a[r].y && rx <= a[l].x) c = false;
-            if (a[l].y < a[r].y && rx >= a[l].x) c = false;
-        } else {
-            int128 res = A * rx + B * ry + C;
-            if (res <= 0) c = false;
+void solve() {
+    int n, r;
+    cin >> n >> r;
+    Point o;
+    cin >> o.x >> o.y >> r;
+    vector<Point> p(n + 1);
+    for (int i = 1; i <= n; i++) {
+        cin >> p[i].x >> p[i].y;
+    }
+    int s = 0;
+    int rr = 1;
+    int ans = 0;
+    for (int i = 1; i <= n; i++) {
+        while (check(o, p[i], p[rr % n + 1], rr) && same_side(p[i], p[rr % n + 1], o, p[i % n + 1])) {
+            s += abs(cross(p[i], p[rr], p[rr % n + 1]));
+            rr = rr % n + 1;
         }
+        ans = max(ans, s);
+        s -= abs(cross(p[i], p[i], p[i % n + 1]));
     }
-    return c;
+    cout << ans << endl;
 }
 
-inline void Zlin() {
-    n = read_ll();
-    rx = read_ll();
-    ry = read_ll();
-    rr = read_ll();
-    a.assign(n * 2, {0, 0});
-    s.assign(n * 2, 0);
-    ans = 0;
-
-    for (int i = 0; i < n; i++) {
-        int128 x = read_ll(), y = read_ll();
-        a[i].x = x;
-        a[i].y = y;
-        a[i + n] = a[i];
+signed main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    int T;
+    T = 1;
+    cin >> T;
+    while (T--) {
+        solve();
     }
-
-    for (int i = 1; i < n * 2; i++) {
-        s[i] = s[i - 1] + dif(i - 1, i);
-    }
-
-    int l = 0, r = l + 2;
-    while (l < n) {
-        if (check(l, r)) {
-            ans = max(ans, cal(l, r));
-            ++r;
-        } else {
-            ++l;
-        }
-        if (l + 1 == r) ++r;
-    }
-    print_int128(ans);
-    putchar('\n');
-}
-
-int main() {
-    int ttt = read_ll();
-    while (ttt--) Zlin();
+    return 0;
 }
