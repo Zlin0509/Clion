@@ -455,47 +455,117 @@ ll query(string s)//查询函数
 
 快速计算多项式乘法
 
+#### 主体
+
 ```c++
-/*
- * 做 FFT
- * len 必须是 2^k 形式
- * on == 1 时是 DFT，on == -1 时是 IDFT
- */
-typedef complex<double> Complex;
-void fft(Complex y[], int len, int on) {
-    // 位逆序置换
-    change(y, len);
-    // 模拟合并过程，一开始，从长度为一合并到长度为二，一直合并到长度为 len。
-    for (int h = 2; h <= len; h <<= 1) {
-        // wn：当前单位复根的间隔：w^1_h
-        Complex wn(cos(2 * PI / h), sin(on * 2 * PI / h));
-        // 合并，共 len / h 次。
-        for (int j = 0; j < len; j += h) {
-            // 计算当前单位复根，一开始是 1 = w^0_n，之后是以 wn 为间隔递增： w^1_n
-            // ...
+const double PI = acos(-1.0);
+
+struct Complex {
+    double real, imag;
+
+    Complex(double r = 0.0, double i = 0.0) : real(r), imag(i) {}
+
+    Complex operator+(const Complex &other) const {
+        return Complex(real + other.real, imag + other.imag);
+    }
+
+    Complex operator-(const Complex &other) const {
+        return Complex(real - other.real, imag - other.imag);
+    }
+
+    Complex operator*(const Complex &other) const {
+        return Complex(real * other.real - imag * other.imag, real * other.imag + imag * other.real);
+    }
+};
+
+// 进行 FFT 或 IFFT，on == 1 表示 FFT，on == -1 表示 IFFT
+void fft(vector<Complex> &a, int n, int on) {
+    for (int i = 1, j = 0; i < n - 1; i++) {
+        for (int k = n >> 1; (j ^= k) < k; k >>= 1);
+        if (i < j) swap(a[i], a[j]);
+    }
+    for (int m = 2; m <= n; m <<= 1) {
+        Complex wm(cos(2 * PI / m), sin(on * 2 * PI / m));
+        for (int i = 0; i < n; i += m) {
             Complex w(1, 0);
-            for (int k = j; k < j + h / 2; k++) {
-                // 左侧部分和右侧是子问题的解
-                Complex u = y[k];
-                Complex t = w * y[k + h / 2];
-                // 这就是把两部分分治的结果加起来
-                y[k] = u + t;
-                y[k + h / 2] = u - t;
-                // 后半个 「step」 中的ω一定和 「前半个」 中的成相反数
-                // 「红圈」上的点转一整圈「转回来」，转半圈正好转成相反数
-                // 一个数相反数的平方与这个数自身的平方相等
-                w = w * wn;
+            for (int j = 0; j < m / 2; j++) {
+                Complex u = a[i + j];
+                Complex t = w * a[i + j + m / 2];
+                a[i + j] = u + t;
+                a[i + j + m / 2] = u - t;
+                w = w * wm;
             }
         }
     }
-    // 如果是 IDFT，它的逆矩阵的每一个元素不只是原元素取倒数，还要除以长度 len。
     if (on == -1) {
-        for (int i = 0; i < len; i++) {
-            y[i].x /= len;
+        for (int i = 0; i < n; i++) {
+            a[i].real /= n;
+            a[i].imag /= n;
         }
     }
 }
 ```
+
+#### 大数乘法
+
+```c++
+// 大数乘法主函数
+vector<int> multiply(const vector<int>& A, const vector<int>& B) {
+    int n = 1;
+    while (n < A.size() + B.size()) n <<= 1;  // 找到大于等于 A.size() + B.size() 的最小 2 的幂
+    vector<Complex> a(n), b(n);
+    for (int i = 0; i < A.size(); i++) a[i] = Complex(A[i], 0);
+    for (int i = 0; i < B.size(); i++) b[i] = Complex(B[i], 0);
+
+    fft(a, n, 1);
+    fft(b, n, 1);
+    for (int i = 0; i < n; i++) a[i] = a[i] * b[i];  // 点乘
+    fft(a, n, -1);
+
+    vector<int> result(n);
+    for (int i = 0; i < n; i++) result[i] = int(a[i].real + 0.5);  // 四舍五入取整
+    for (int i = 0; i < n - 1; i++) {
+        result[i + 1] += result[i] / 10;  // 处理进位
+        result[i] %= 10;
+    }
+    while (result.size() > 1 && result.back() == 0) result.pop_back();  // 去掉前导0
+    return result;
+}
+
+```
+
+#### 多项式乘法
+
+```c++
+// 多项式乘法
+vector<int> multiply_polynomials(const vector<int> &A, const vector<int> &B) {
+    int n = 1;
+    while (n < A.size() + B.size()) n <<= 1;  // 取大于等于 A.size() + B.size() 的最小2的幂
+    vector<Complex> a(n), b(n);
+
+    for (int i = 0; i < A.size(); i++) a[i] = Complex(A[i], 0);
+    for (int i = 0; i < B.size(); i++) b[i] = Complex(B[i], 0);
+
+    // 进行 FFT 变换
+    fft(a, n, 1);
+    fft(b, n, 1);
+
+    // 点乘：每个位置上的系数相乘
+    for (int i = 0; i < n; i++) a[i] = a[i] * b[i];
+
+    // 逆 FFT 变换
+    fft(a, n, -1);
+
+    // 提取结果并处理进位
+    vector<int> result(n);
+    for (int i = 0; i < n; i++)
+        result[i] = round(a[i].real);
+
+    return result;
+}
+```
+
+
 
 ### 几何
 
