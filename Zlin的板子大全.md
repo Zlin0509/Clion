@@ -451,56 +451,56 @@ ll query(string s)//查询函数
 >
 >大数不能直接用sqrt，要自己用二分查找求值
 
-### FFT/NTT
+### FFT
 
-快速计算多项式乘法
+快速计算多项式乘法/大数乘法
 
 #### 主体
 
 ```c++
 const double PI = acos(-1.0);
 
-struct Complex {
-    double real, imag;
+struct Cp {
+    double r, i;
 
-    Complex(double r = 0.0, double i = 0.0) : real(r), imag(i) {}
+    Cp(double _r = 0.0, double _i = 0.0) : r(_r), i(_i) {}
 
-    Complex operator+(const Complex &other) const {
-        return Complex(real + other.real, imag + other.imag);
+    Cp operator+(const Cp &o) const {
+        return Cp(r + o.r, i + o.i);
     }
 
-    Complex operator-(const Complex &other) const {
-        return Complex(real - other.real, imag - other.imag);
+    Cp operator-(const Cp &o) const {
+        return Cp(r - o.r, i - o.i);
     }
 
-    Complex operator*(const Complex &other) const {
-        return Complex(real * other.real - imag * other.imag, real * other.imag + imag * other.real);
+    Cp operator*(const Cp &o) const {
+        return Cp(r * o.r - i * o.i, r * o.i + i * o.r);
     }
 };
 
-// 进行 FFT 或 IFFT，on == 1 表示 FFT，on == -1 表示 IFFT
-void fft(vector<Complex> &a, int n, int on) {
-    for (int i = 1, j = 0; i < n - 1; i++) {
-        for (int k = n >> 1; (j ^= k) < k; k >>= 1);
-        if (i < j) swap(a[i], a[j]);
+// 进行 FFT 或 IFFT，d == 1 表示 FFT，d == -1 表示 IFFT
+void fft(vector<Cp> &a, int n, int d) {
+    for (int p = 1, q = 0; p < n - 1; p++) {
+        for (int k = n >> 1; (q ^= k) < k; k >>= 1);
+        if (p < q) swap(a[p], a[q]);
     }
     for (int m = 2; m <= n; m <<= 1) {
-        Complex wm(cos(2 * PI / m), sin(on * 2 * PI / m));
-        for (int i = 0; i < n; i += m) {
-            Complex w(1, 0);
+        Cp wm(cos(2 * PI / m), sin(d * 2 * PI / m));
+        for (int p = 0; p < n; p += m) {
+            Cp w(1, 0);
             for (int j = 0; j < m / 2; j++) {
-                Complex u = a[i + j];
-                Complex t = w * a[i + j + m / 2];
-                a[i + j] = u + t;
-                a[i + j + m / 2] = u - t;
+                Cp u = a[p + j];
+                Cp t = w * a[p + j + m / 2];
+                a[p + j] = u + t;
+                a[p + j + m / 2] = u - t;
                 w = w * wm;
             }
         }
     }
-    if (on == -1) {
-        for (int i = 0; i < n; i++) {
-            a[i].real /= n;
-            a[i].imag /= n;
+    if (d == -1) {
+        for (int p = 0; p < n; p++) {
+            a[p].r /= n;
+            a[p].i /= n;
         }
     }
 }
@@ -513,61 +513,121 @@ void fft(vector<Complex> &a, int n, int on) {
 vector<int> multiply(const vector<int>& A, const vector<int>& B) {
     int n = 1;
     while (n < A.size() + B.size()) n <<= 1;  // 找到大于等于 A.size() + B.size() 的最小 2 的幂
-    vector<Complex> a(n), b(n);
-    for (int i = 0; i < A.size(); i++) a[i] = Complex(A[i], 0);
-    for (int i = 0; i < B.size(); i++) b[i] = Complex(B[i], 0);
+    vector<Cp> a(n), b(n);
+
+    for (int p = 0; p < A.size(); p++) a[p] = Cp(A[p], 0);
+    for (int p = 0; p < B.size(); p++) b[p] = Cp(B[p], 0);
 
     fft(a, n, 1);
     fft(b, n, 1);
-    for (int i = 0; i < n; i++) a[i] = a[i] * b[i];  // 点乘
+
+    for (int p = 0; p < n; p++) a[p] = a[p] * b[p];  // 点乘
     fft(a, n, -1);
 
-    vector<int> result(n);
-    for (int i = 0; i < n; i++) result[i] = int(a[i].real + 0.5);  // 四舍五入取整
-    for (int i = 0; i < n - 1; i++) {
-        result[i + 1] += result[i] / 10;  // 处理进位
-        result[i] %= 10;
+    vector<int> res(n);
+    for (int p = 0; p < n; p++) res[p] = int(a[p].r + 0.5);  // 四舍五入取整
+    for (int p = 0; p < n - 1; p++) {
+        res[p + 1] += res[p] / 10;  // 处理进位
+        res[p] %= 10;
     }
-    while (result.size() > 1 && result.back() == 0) result.pop_back();  // 去掉前导0
-    return result;
+    while (res.size() > 1 && res.back() == 0) res.pop_back();  // 去掉前导0
+    return res;
 }
-
 ```
 
 #### 多项式乘法
 
 ```c++
 // 多项式乘法
-vector<int> multiply_polynomials(const vector<int> &A, const vector<int> &B) {
+vector<int> multiply(const vector<int> &A, const vector<int> &B) {
     int n = 1;
     while (n < A.size() + B.size()) n <<= 1;  // 取大于等于 A.size() + B.size() 的最小2的幂
-    vector<Complex> a(n), b(n);
+    vector<Cp> a(n), b(n);
 
-    for (int i = 0; i < A.size(); i++) a[i] = Complex(A[i], 0);
-    for (int i = 0; i < B.size(); i++) b[i] = Complex(B[i], 0);
+    for (int p = 0; p < A.size(); p++) a[p] = Cp(A[p], 0);
+    for (int p = 0; p < B.size(); p++) b[p] = Cp(B[p], 0);
 
     // 进行 FFT 变换
     fft(a, n, 1);
     fft(b, n, 1);
 
     // 点乘：每个位置上的系数相乘
-    for (int i = 0; i < n; i++) a[i] = a[i] * b[i];
+    for (int p = 0; p < n; p++) a[p] = a[p] * b[p];
 
     // 逆 FFT 变换
     fft(a, n, -1);
 
     // 提取结果并处理进位
-    vector<int> result(n);
-    for (int i = 0; i < n; i++)
-        result[i] = round(a[i].real);
+    vector<int> res(n);
+    for (int p = 0; p < n; p++)
+        res[p] = round(a[p].r);
 
-    return result;
+    return res;
+}
+```
+
+### NTT
+
+受模数的限制，数也比较大，但精度不易缺失
+
+```c++
+const int MOD = 998244353;  // 质数模数 p
+const int G = 3;            // 原根 g
+
+// 快速幂计算 a^b % mod
+int mod_pow(int a, int b, int mod) {
+    int res = 1;
+    while (b > 0) {
+        if (b % 2 == 1) res = 1LL * res * a % mod;
+        a = 1LL * a * a % mod;
+        b /= 2;
+    }
+    return res;
+}
+
+// NTT 核心函数
+void ntt(vector<int> &a, int n, int inv) {
+    // 二进制反转置换
+    for (int i = 1, j = 0; i < n; i++) {
+        int bit = n >> 1;
+        while (j >= bit) {
+            j -= bit;
+            bit >>= 1;
+        }
+        j += bit;
+        if (i < j) swap(a[i], a[j]);
+    }
+
+    // 进行 NTT
+    for (int len = 2; len <= n; len <<= 1) {
+        int wlen = inv == 1 ? mod_pow(G, (MOD - 1) / len, MOD) : mod_pow(mod_pow(G, (MOD - 1) / len, MOD), MOD - 2, MOD);
+        for (int i = 0; i < n; i += len) {
+            int w = 1;
+            for (int j = 0; j < len / 2; j++) {
+                int u = a[i + j];
+                int v = 1LL * a[i + j + len / 2] * w % MOD;
+                a[i + j] = (u + v) % MOD;
+                a[i + j + len / 2] = (u - v + MOD) % MOD;
+                w = 1LL * w * wlen % MOD;
+            }
+        }
+    }
+
+    // 如果是逆变换，需要除以 n (即乘以 n 的逆元)
+    if (inv == -1) {
+        int n_inv = mod_pow(n, MOD - 2, MOD);
+        for (int &x : a) x = 1LL * x * n_inv % MOD;
+    }
 }
 ```
 
 
 
 ### 几何
+
+#### 计算几何
+
+
 
 #### 旋转卡壳
 
@@ -646,6 +706,8 @@ inline void gauss() {
 ```
 
 ##### 区间线性基
+
+更新当前位置永远保证是最右一位
 
 ```c++
 inline void insert(int x, int id) {
