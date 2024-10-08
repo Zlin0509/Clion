@@ -64,8 +64,10 @@ void fft(vector<Cp> &a, int n, int d) {
     }
 }
 
+
+
 // 大数乘法主函数
-vector<int> multiply(const vector<int>& A, const vector<int>& B) {
+vector<int> multiply(const vector<int> &A, const vector<int> &B) {
     int n = 1;
     while (n < A.size() + B.size()) n <<= 1;  // 找到大于等于 A.size() + B.size() 的最小 2 的幂
     vector<Cp> a(n), b(n);

@@ -568,6 +568,8 @@ vector<int> multiply(const vector<int> &A, const vector<int> &B) {
 
 ### NTT
 
+#### 主体
+
 受模数的限制，数也比较大，但精度不易缺失
 
 ```c++
@@ -621,7 +623,100 @@ void ntt(vector<int> &a, int n, int inv) {
 }
 ```
 
+#### 多项式求逆
 
+```c++
+// 多项式乘法
+vector<int> poly_mult(const vector<int> &a, const vector<int> &b) {
+    int n = 1;
+    while (n < a.size() + b.size()) n <<= 1;
+
+    vector<int> A(a.begin(), a.end()), B(b.begin(), b.end());
+    A.resize(n);
+    B.resize(n);
+
+    ntt(A, false);
+    ntt(B, false);
+
+    for (int i = 0; i < n; i++)
+        A[i] = (1LL * A[i] * B[i]) % MOD;
+
+    ntt(A, true);
+
+    return A;
+}
+
+// 多项式求逆
+vector<int> poly_inv(const vector<int> &a) {
+    int n = a.size();
+    vector<int> res(1, pow_mod(a[0], MOD - 2)); // 初始逆多项式为 a[0] 的逆元
+
+    for (int len = 1; len < n; len *= 2) {
+        vector<int> temp(res.begin(), res.end());
+        temp.resize(2 * len);
+        vector<int> mult = poly_mult(temp, a);
+        for (int i = 0; i < len; i++) {
+            res.push_back((2LL * res[i] - mult[i] + MOD) % MOD); // 更新逆多项式
+        }
+    }
+    return res;
+}
+```
+
+
+
+#### 如何求原根
+
+```c++
+#include <iostream>
+#include <vector>
+using namespace std;
+
+// 快速幂
+long long mpow(long long b, long long e, long long m) {
+    long long r = 1;
+    while (e) {
+        if (e & 1) r = (r * b) % m;
+        b = (b * b) % m;
+        e >>= 1;
+    }
+    return r;
+}
+
+// 查找原根
+long long g_r(long long p) {
+    long long p1 = p - 1;
+    vector<long long> f;
+
+    // 找到 p-1 的质因数
+    for (long long i = 2; i * i <= p1; i++) {
+        if (p1 % i == 0) {
+            f.push_back(i);
+            while (p1 % i == 0) p1 /= i;
+        }
+    }
+    if (p1 > 1) f.push_back(p1);
+
+    // 寻找原根
+    for (long long g = 2; g < p; g++) {
+        bool is_r = true;
+        for (long long q : f) {
+            if (mpow(g, (p - 1) / q, p) == 1) {
+                is_r = false;
+                break;
+            }
+        }
+        if (is_r) return g;
+    }
+    return -1; // 如果没有找到
+}
+
+int main() {
+    long long p = 7; // 可以替换为任意素数
+    cout << "Primitive root of " << p << " is: " << g_r(p) << endl;
+    return 0;
+}
+```
 
 ### 几何
 
@@ -975,6 +1070,8 @@ DSU
 #### 判断奇数环和偶数环
 
 ##### 二分图染色法
+
+
 
 ### 最短路算法
 
@@ -1375,6 +1472,42 @@ bool prim(int s)
 
 
 ### 二分图
+
+#### 最大匹配问题
+
+##### **匈牙利算法**
+
+```c++
+vector<int> g[N];  // 邻接表
+int mt[N];         // 存储匹配
+bool vis[N];       // 访问标记
+
+// 尝试为 u 找增广路径
+bool dfs(int u) {
+    for (int v : g[u]) {
+        if (!vis[v]) {
+            vis[v] = true;
+            if (mt[v] == -1 || dfs(mt[v])) {
+                mt[v] = u;
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
+// 匈牙利算法求最大匹配
+int maxMatch(int n) {
+    memset(mt, -1, sizeof(mt));
+    int res = 0;
+
+    for (int u = 0; u < n; u++) {
+        memset(vis, 0, sizeof(vis));
+        if (dfs(u)) res++;
+    }
+    return res;
+}
+```
 
 
 

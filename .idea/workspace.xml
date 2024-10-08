@@ -11,7 +11,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="Zlin_ACM" targetName="H" />
+      <config projectName="Zlin_ACM" targetName="2018A" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -21,8 +21,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38802b48-beb0-41a6-9a8e-7d21688469e3" name="更改" comment="10，6">
+      <change afterPath="$PROJECT_DIR$/_CF/CONTEST/2018/2018A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/CONTEST/2018/2018B1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/GYM/The 2024 CCPC Shandong Invitational Contest and Provincial Collegiate Programming Contest/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/GYM/The 2024 CCPC Shandong Invitational Contest and Provincial Collegiate Programming Contest/B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/GYM/The 2024 CCPC Shandong Invitational Contest and Provincial Collegiate Programming Contest/C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/GYM/The 2024 CCPC Shandong Invitational Contest and Provincial Collegiate Programming Contest/D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/GYM/The 2024 CCPC Shandong Invitational Contest and Provincial Collegiate Programming Contest/F.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/GYM/The 2024 CCPC Shandong Invitational Contest and Provincial Collegiate Programming Contest/H.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/GYM/The 2024 CCPC Shandong Invitational Contest and Provincial Collegiate Programming Contest/I.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CF/GYM/The 2024 CCPC Shandong Invitational Contest and Provincial Collegiate Programming Contest/K.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zlin的板子大全.md" beforeDir="false" afterPath="$PROJECT_DIR$/Zlin的板子大全.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/GYM/The 2024 CCPC Shandong Invitational Contest and Provincial Collegiate Programming Contest/J.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/GYM/The 2024 CCPC Shandong Invitational Contest and Provincial Collegiate Programming Contest/J.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_CF/GYM/The 2024 ICPC Kunming Invitational Contest/H.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/GYM/The 2024 ICPC Kunming Invitational Contest/H.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,13 +82,17 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "CMake 应用程序.2001E1.executor": "Run",
     "CMake 应用程序.A.executor": "Run",
+    "CMake 应用程序.AA.executor": "Run",
     "CMake 应用程序.B.executor": "Run",
+    "CMake 应用程序.C.executor": "Run",
+    "CMake 应用程序.D.executor": "Run",
     "CMake 应用程序.E.executor": "Run",
     "CMake 应用程序.F.executor": "Run",
     "CMake 应用程序.G.executor": "Run",
     "CMake 应用程序.H.executor": "Run",
     "CMake 应用程序.I.executor": "Run",
     "CMake 应用程序.J.executor": "Run",
+    "CMake 应用程序.K.executor": "Run",
     "CMake 应用程序.L.executor": "Run",
     "CMake 应用程序.M.executor": "Run",
     "CMake 应用程序.MM.executor": "Run",
@@ -113,7 +128,7 @@
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="H" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zlin_ACM" TARGET_NAME="H" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zlin_ACM" RUN_TARGET_NAME="H">
+    <configuration name="2018A" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zlin_ACM" TARGET_NAME="2018A" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zlin_ACM" RUN_TARGET_NAME="2018A">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -129,7 +144,7 @@
       <updated>1727855862529</updated>
       <workItem from="1727855863607" duration="42030000" />
       <workItem from="1728108804097" duration="17441000" />
-      <workItem from="1728142560661" duration="2702000" />
+      <workItem from="1728142560661" duration="30053000" />
     </task>
     <task id="LOCAL-00001" summary="10，2">
       <option name="closed" value="true" />
@@ -283,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728185808864</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="10，6">
+      <option name="closed" value="true" />
+      <created>1728192926811</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1728192926811</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,5 +324,12 @@
     <MESSAGE value="10，5" />
     <MESSAGE value="10，6" />
     <option name="LAST_COMMIT_MESSAGE" value="10，6" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="b" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
