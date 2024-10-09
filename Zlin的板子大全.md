@@ -27,13 +27,13 @@ s.begin()	返回set容器的第一个元素的地址（迭代器）
 s.end()	返回set容器的最后一个元素的地址（迭代器）
 s.rbegin()	返回逆序迭代器，指向容器元素最后一个位置
 s.rend()	返回逆序迭代器，指向容器第一个元素前面的位置
-s.clear()	删除set容器中的所有的元素,返回unsigned int类型O ( N ) O(N)O(N)
+s.clear()	删除set容器中的所有的元素,返回unsigned int类型O(N)
 s.empty()	判断set容器是否为空
-s.insert()	插入一个元素 O ( N l o g N ) O(NlogN)O(NlogN)
-s.size()	返回当前set容器中的元素个数O ( 1 ) O(1)O(1)
+s.insert()	插入一个元素 O(NlogN)
+s.size()	返回当前set容器中的元素个数O(1)
 erase(iterator)	删除定位器iterator指向的值
 erase(first,second）	删除定位器first和second之间的值
-erase(key_value)	删除键值key_value的值O ( N l o g N ) O(NlogN)O(NlogN)	
+erase(key_value)	删除键值key_value的值O(NlogN)	
 s.find(元素)	查找set中的某一元素，有则返回该元素对应的迭代器，无则返回结束迭代器
 s.lower_bound(k)	返回大于等于k的第一个元素的迭代器
 s.upper_bound(k)	返回大于k的第一个元素的迭代器
