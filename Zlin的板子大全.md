@@ -1,10 +1,129 @@
+[]: 
+
 # Zlin的板子大全
 
+## 杂项
 
+#### 对拍
+
+a.exe优化算法 b.exe暴力算法
+t运行次数	
+
+```c++
+#include<iostream>  
+#include<windows.h>  
+using namespace std;  
+int main()  
+{  
+    int t=10;
+    while(t)  
+    {  
+      	t--;  
+        system("data.exe > data.txt");  
+        system("a.exe < data.txt > a.txt");  
+         system("b.exe < data.txt > b.txt");  
+        if(system("fc Dijkstra.txt Floyd.txt"))   break;  
+    }  
+    if(t==0) cout<<"no error"<<endl;  
+    else cout<<"error"<<endl;  
+ 
+    return 0;  
+}
+
+```
+
+常用数据生成方式
+
+```c++
+#include <iostream>  
+#include <cstdlib> // rand(), srand()  
+#include <ctime> // time()  
+#include <set>  
+#include <vector>  
+#include <algorithm> // shuffle  
+#include <utility> // pair 
+
+// 随机打乱序列
+    random_shuffle(sequence.begin(), sequence.end());
+
+int random(int n) {//返回0-n-1之间的随机整数
+    cout << rand() % n << '\n';
+}
+
+void generateRandomArray() {//随机生成长度为n的绝对值在1e9之内的整数序列
+    int n = random(1e5) + 1;
+    int m = 1e9;
+    for (int i = 1; i <= n; i++) {
+        cout << random(2 * m + 1) - m << '\n';
+    }
+}
+​
+void generateIntervals() {//随机生成 m个[1,n]的子区间
+    int m = 10, n = 100;
+    for (int i = 1; i <= m; i++) {
+        int l = random(n) + 1;
+        int r = random(n) + 1;
+        if (l > r) swap(l, r);
+        cout << l << " " << r << '\n';
+    }
+}
+​
+void generateTree() {//随机生成一棵n个点的树，用n个点n-1条边的无向图的形式输出
+    int n = 10;
+    for (int i = 2; i <= n; i++) {//从2 ~ n之间的每个点i向 1 ~ i-1之间的点随机连一条边
+        int fa = random(i - 1) + 1;
+        int val = random(1e9) + 1;
+        cout << fa << " " << i << " " << val << '\n';
+    }
+}
+​
+void generateGraph() {//随机生成一张n个点m条边的无向图，图中不存在重边、自环
+    int n = 10, m = 6;
+    set<pair<int, int>> edges;//防止重边
+    for (int i = 1; i <= n; i++) {//先生成一棵树，保证连通
+        int fa = random(i - 1) + 1;
+        edges.insert({ fa, i + 1 });
+        edges.insert({ i + 1, fa });
+    }
+    while (edges.size() < m) {//再生成剩余的 m-n+1 条边
+        int x = random(n) + 1;
+        int y = random(n) + 1;
+        if (x != y) {
+            edges.insert({ x, y });
+            edges.insert({ y, x });
+        }
+    }
+    // Shuffling and outputting
+    vector<pair<int, int>> Edges(edges.begin(), edges.end());
+    random_shuffle(Edges.begin(), Edges.end());
+    for (auto& edge : Edges) {
+        cout << edge.first << " " << edge.second << '\n';
+    }
+}
+
+int main() {
+    srand(time(0));
+    /*随机生成*/
+    return 0;
+}
+```
 
 ## 数据结构
 
 ### 基础
+
+#### 离散化操作
+
+```c++
+vector<int> disc(const vector<int> &a) {
+    vector<int> v(a);
+    sort(v.begin(), v.end());
+    v.erase(unique(v.begin(), v.end()), v.end());
+    vector<int> res(a.size());
+    for (int i = 0; i < a.size(); i++)res[i] = lower_bound(v.begin(), v.end(), a[i]) - v.begin();
+    return res;
+}
+```
 
 #### 优先队列
 
@@ -149,39 +268,54 @@ s.upper_bound(k)	返回大于k的第一个元素的迭代器
 
 #### 扫描线
 
->扫描线记得开八倍空间
->
->pushup回传标记
->
->```c++
->inline void pushup(int u)
->{
->        int l = T[u].l, r = T[u].r;
->        if (T[u].cnt)
->             T[u].len = X[r + 1] - X[l];
->        else
->             T[u].len = T[u << 1].len + T[u << 1 | 1].len;
->}
->```
->
->修改操作
->
->```c++
->inline void add(int l, int r, int u, int tag)
->{
->        if (T[u].l > r || T[u].r < l)
->             return;
->        if (T[u].l >= l && T[u].r <= r)
->        {
->             T[u].cnt += tag;
->             pushup(u);
->             return;
->        }
->        add(l, r, u << 1, tag);
->        add(l, r, u << 1 | 1, tag);
->        pushup(u);
->}
->```
+```c++
+struct Line {
+    double x1, x2, y;
+    int type; // +1 表示矩形底边，-1 表示矩形顶边
+    Line(double a, double b, double c, int d) : x1(a), x2(b), y(c), type(d) {}
+};
+
+bool cmp(const Line &l1, const Line &l2) {
+    return l1.y < l2.y;
+}
+
+struct Node {
+    int cnt;     // 区间被覆盖的次数
+    double len;  // 当前区间的总长度
+};
+
+vector<double> xs;  // 保存去重后的 x 坐标
+vector<Node> seg;   // 线段树
+
+void build(int p, int l, int r) {
+    seg[p].cnt = seg[p].len = 0;
+    if (l == r) return;
+    int mid = (l + r) / 2;
+    build(p * 2, l, mid);
+    build(p * 2 + 1, mid + 1, r);
+}
+
+void update(int p, int l, int r, int ql, int qr, int v) {
+    if (ql > r || qr < l) return;
+    if (ql <= l && r <= qr) {
+        seg[p].cnt += v;
+    } else {
+        int mid = (l + r) / 2;
+        update(p * 2, l, mid, ql, qr, v);
+        update(p * 2 + 1, mid + 1, r, ql, qr, v);
+    }
+
+    if (seg[p].cnt > 0) {
+        seg[p].len = xs[r + 1] - xs[l];  // 完全覆盖的区间
+    } else {
+        if (l == r) {
+            seg[p].len = 0;
+        } else {
+            seg[p].len = seg[p * 2].len + seg[p * 2 + 1].len;  // 合并区间
+        }
+    }
+}
+```
 
 ### 左偏树/可并堆
 
@@ -726,6 +860,12 @@ int main() {
 
 #### 计算几何
 
+[]: 
+
+高斯面积公式  
+\[
+\text{Area} = \frac{1}{2} \left| \sum_{i=1}^{n} (x_i y_{i+1} - x_{i+1} y_i) \right|
+\]
 
 
 #### 构建凸包
