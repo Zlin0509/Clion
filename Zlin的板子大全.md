@@ -450,6 +450,10 @@ ll query(string s)//查询函数
 >多元同理
 >
 >大数不能直接用sqrt，要自己用二分查找求值
+>
+>叉积 
+>
+>AB*AC小于零说明AB能顺时针旋转到AC，大于零说明逆时针
 
 ### FFT
 
@@ -724,45 +728,92 @@ int main() {
 
 
 
+#### 构建凸包
+
+```c++
+struct P {
+    int x, y;
+
+    // 比较函数，先按 x 排序，若 x 相同则按 y 排序
+    bool operator<(const P &p) const {
+        return x < p.x || (x == p.x && y < p.y);
+    }
+};
+
+// 计算向量 cross product (AB × AC)，用于判断点的相对位置
+int cross(const P &a, const P &b, const P &c) {
+    return (b.x - a.x) * (c.y - a.y) - (b.y - a.y) * (c.x - a.x);
+}
+
+// 求凸包
+vector<P> convexHull(vector<P> &pts) {
+    int n = pts.size();
+    if (n < 3) return pts;  // 点数小于3无法构成凸包
+
+    // 先对点集进行排序
+    sort(pts.begin(), pts.end());
+
+    vector<P> h;
+
+    // 构建下半凸包
+    for (int i = 0; i < n; ++i) {
+        while (h.size() >= 2 && cross(h[h.size() - 2], h.back(), pts[i]) <= 0) {
+            h.pop_back();  // 移除不满足凸包性质的点
+        }
+        h.push_back(pts[i]);
+    }
+
+    // 构建上半凸包
+    int t = h.size() + 1;  // 记录下半部分点的个数
+    for (int i = n - 1; i >= 0; --i) {
+        while (h.size() >= t && cross(h[h.size() - 2], h.back(), pts[i]) <= 0) {
+            h.pop_back();  // 移除不满足凸包性质的点
+        }
+        h.push_back(pts[i]);
+    }
+
+    h.pop_back();  // 移除最后一个点，因为它在上下两部分中都出现了
+    return h;
+}
+```
+
+
+
 #### 旋转卡壳
 
 旋转卡壳，求凸包的直径，可以处理三点共线
 
 ```c++
-struct Point
-{
+struct P {
     double x, y;
 };
+
 // 计算两点之间的欧几里得距离
-double distance(const Point &p1, const Point &p2)
-{
+double dist(const P &p1, const P &p2) {
     return sqrt((p1.x - p2.x) * (p1.x - p2.x) + (p1.y - p2.y) * (p1.y - p2.y));
 }
+
 // 计算向量叉积
-double cross(const Point &O, const Point &A, const Point &B)
-{
-    return (A.x - O.x) * (B.y - O.y) - (A.y - O.y) * (B.x - O.x);
+double cross(const P &o, const P &a, const P &b) {
+    return (a.x - o.x) * (b.y - o.y) - (a.y - o.y) * (b.x - o.x);
 }
+
 // 使用旋转卡壳算法求凸包的直径（最远点对距离）
-double rotatingCalipers(const vector<Point> &hull)
-{
-    int n = hull.size();
-    if (n == 1)
-        return 0.0;
-    if (n == 2)
-        return distance(hull[0], hull[1]);
+double rotCalipers(const vector<P> &h) {
+    int n = h.size();
+    if (n == 1) return 0.0;
+    if (n == 2) return dist(h[0], h[1]);
+
     int k = 1;
-    double maxDist = 0.0;
-    for (int i = 0; i < n; ++i)
-    {
-        while (abs(cross(hull[i], hull[(i + 1) % n], hull[(k + 1) % n])) > abs(cross(hull[i], hull[(i + 1) % n], hull[k])))
-        {
+    double maxD = 0.0;
+    for (int i = 0; i < n; ++i) {
+        while (abs(cross(h[i], h[(i + 1) % n], h[(k + 1) % n])) > abs(cross(h[i], h[(i + 1) % n], h[k]))) {
             k = (k + 1) % n;
         }
-        maxDist = max(maxDist, distance(hull[i], hull[k]));
-        maxDist = max(maxDist, distance(hull[(i + 1) % n], hull[k]));
+        maxD = max(maxD, dist(h[i], h[k]));
+        maxD = max(maxD, dist(h[(i + 1) % n], h[k]));
     }
-    return maxDist;
+    return maxD;
 }
 ```
 

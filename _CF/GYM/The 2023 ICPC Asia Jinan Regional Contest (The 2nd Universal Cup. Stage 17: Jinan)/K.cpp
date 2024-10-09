@@ -1,5 +1,5 @@
 //
-// Created by Zlin on 2024/10/8.
+// Created by Zlin on 2024/10/9.
 //
 
 #include "bits/stdc++.h"
@@ -18,23 +18,14 @@ typedef pair<long long, long long> pll;
 const int N = 2e5 + 10;
 
 int n;
-ll k, a[N];
+ll k;
+ll a[N];
 
 inline void Zlin() {
     cin >> n >> k;
-    for (int i = 1; i <= n; i++) {
-        cin >> a[i];
-        a[i] -= i;
-    }
-    multiset<int> p;
-    int l = 0, r = 0, ans = 0;
-    ll sum = 0, tag = 0;
-
-    while (l < n - ans) {
-        while (r < l + ans) {
-            sum += a[r++];
-
-        }
+    for (int i = 1; i <= n; i++) cin >> a[i];
+    int ans = 0, l = 1, r = 1;
+    while (l <= n - ans) {
 
     }
     cout << ans << '\n';

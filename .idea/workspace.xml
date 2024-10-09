@@ -21,13 +21,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38802b48-beb0-41a6-9a8e-7d21688469e3" name="更改" comment="10，8">
-      <change afterPath="$PROJECT_DIR$/_CF/GYM/The 2023 ICPC Asia Jinan Regional Contest (The 2nd Universal Cup. Stage 17: Jinan)/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_CF/GYM/The 2023 ICPC Asia Jinan Regional Contest (The 2nd Universal Cup. Stage 17: Jinan)/D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_CF/GYM/The 2023 ICPC Asia Jinan Regional Contest (The 2nd Universal Cup. Stage 17: Jinan)/G.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_CF/GYM/The 2023 ICPC Asia Jinan Regional Contest (The 2nd Universal Cup. Stage 17: Jinan)/I.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_CF/GYM/The 2023 ICPC Asia Jinan Regional Contest (The 2nd Universal Cup. Stage 17: Jinan)/K.cpp" afterDir="false" />
+    <list default="true" id="38802b48-beb0-41a6-9a8e-7d21688469e3" name="更改" comment="10，9">
+      <change afterPath="$PROJECT_DIR$/.idea/SingleFileExecutionConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zlin的板子大全.md" beforeDir="false" afterPath="$PROJECT_DIR$/Zlin的板子大全.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/GYM/The 2023 ICPC Asia Jinan Regional Contest (The 2nd Universal Cup. Stage 17: Jinan)/G.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/GYM/The 2023 ICPC Asia Jinan Regional Contest (The 2nd Universal Cup. Stage 17: Jinan)/G.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CF/GYM/The 2023 ICPC Asia Jinan Regional Contest (The 2nd Universal Cup. Stage 17: Jinan)/K.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_CF/GYM/The 2023 ICPC Asia Jinan Regional Contest (The 2nd Universal Cup. Stage 17: Jinan)/K.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +72,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "CMake Application.G.executor": "Run",
+    "CMake Application.K.executor": "Run",
     "CMake 应用程序.2001E1.executor": "Run",
     "CMake 应用程序.A.executor": "Run",
     "CMake 应用程序.AA.executor": "Run",
@@ -94,6 +95,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
@@ -102,7 +104,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "fileTemplates",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -115,7 +117,7 @@
       <recent name="$PROJECT_DIR$/_CF/1945" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.G">
+  <component name="RunManager" selected="CMake Application.G">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -132,8 +134,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake 应用程序.G" />
-      <item itemvalue="CMake 应用程序.K" />
+      <item itemvalue="CMake Application.G" />
+      <item itemvalue="CMake Application.K" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
@@ -146,7 +148,10 @@
       <updated>1727855862529</updated>
       <workItem from="1727855863607" duration="42030000" />
       <workItem from="1728108804097" duration="17441000" />
-      <workItem from="1728142560661" duration="43129000" />
+      <workItem from="1728142560661" duration="43539000" />
+      <workItem from="1728455784703" duration="3000" />
+      <workItem from="1728455795620" duration="85000" />
+      <workItem from="1728455885736" duration="6582000" />
     </task>
     <task id="LOCAL-00001" summary="10，2">
       <option name="closed" value="true" />
@@ -316,7 +321,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728369903145</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="10，9">
+      <option name="closed" value="true" />
+      <created>1728455407613</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1728455407613</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,6 +340,17 @@
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="10，2" />
     <MESSAGE value="10，3" />
@@ -334,12 +358,14 @@
     <MESSAGE value="10，5" />
     <MESSAGE value="10，6" />
     <MESSAGE value="10，8" />
-    <option name="LAST_COMMIT_MESSAGE" value="10，8" />
+    <MESSAGE value="10，9" />
+    <option name="LAST_COMMIT_MESSAGE" value="10，9" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="b" />
+        <watch expression="t[i]" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>

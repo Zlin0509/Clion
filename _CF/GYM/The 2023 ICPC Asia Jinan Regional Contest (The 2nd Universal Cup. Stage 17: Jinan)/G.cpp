@@ -27,10 +27,13 @@ ll qpw(ll u, ll v) {
     return res;
 }
 
+
+
+
 inline void Zlin() {
     int r, c, cnt = 0;
     cin >> r >> c;
-    vi vis(c + 1), tag(c + 1);
+    vi vis(r << 1 + 2), tag(c << 1 + 1);
     vector<vector<int>> have(r + 1), place(c + 1);
     for (int i = 1; i <= r; i++) {
         char x;
@@ -42,29 +45,7 @@ inline void Zlin() {
             }
         }
     }
-    for (int i = 1; i <= r; i++) {
-        if (vis[i]) continue;
-        queue<int> now;
-        now.push(i);
-        while (!now.empty()) {
-            int u = now.front();
-            now.pop();
-            if (vis[u]) continue;
-            vis[u] = 1;
-            for (auto j: have[u]) {
-                ++tag[j], ++tag[c - j + 1];
-                for (auto q: place[j]) now.push(q);
-                for (auto q: place[c - j + 1]) now.push(q);
-            }
-        }
-        ++cnt;
-    }
-    for (int i = 1; i <= c; i++) {
-        if (tag[i] > 2) {
-            cout << 0 << '\n';
-            return;
-        }
-    }
+
     cout << qpw(2, cnt) << '\n';
 }
 
