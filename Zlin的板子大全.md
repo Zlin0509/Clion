@@ -589,6 +589,17 @@ ll query(string s)//查询函数
 >
 >AB*AC小于零说明AB能顺时针旋转到AC，大于零说明逆时针
 
+#### 极角排序
+
+o表示原点
+
+```c++
+bool cmp(node a, node b) {
+    if (cross(o, a, b) == 0) return a.x < b.x;
+    return cross(o, a, b) > 0;
+}
+```
+
 ### FFT
 
 快速计算多项式乘法/大数乘法
