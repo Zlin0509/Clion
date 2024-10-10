@@ -20,7 +20,7 @@ const int N = 1e5 + 20;
 
 int n, m;
 vi mtl(N), mtr(N), dis(N);// mtl,mtr:左侧和右侧的匹配情况 dis:记录距离（用于 BFS）
-vector<vi> g(N);// 存储二分图的邻接表
+vector<vi> g(N), gg(N);// 存储二分图的邻接表
 
 bool bfs() {
     queue<int> q;
@@ -74,24 +74,39 @@ int HK() {
 
 inline void Zlin() {
     cin >> n >> m;
+    for (int i = 1; i <= n; i++) {
+        g[i].clear();
+        gg[i].clear();
+    }
     for (int i = 1, u, v; i <= m; i++) {
         cin >> u >> v;
         g[u].push_back(v);
+        gg[v].push_back(u);
     }
     ll l = 0, r = n - HK();
     for (int i = 1; i <= n; i++) {
         if (mtl[i] == -1) {
             ++l;
         } else {
+            bool check = false;
             for (int v: g[i]) {
                 if (mtr[v] == -1) {
-                    ++l;
+                    check = true;
                     break;
                 }
             }
+            if (!check) {
+                for (int vv: gg[mtl[i]]) {
+                    if (mtl[vv] == -1) {
+                        check = true;
+                        break;
+                    }
+                }
+            }
+            if (check) ++l;
         }
     }
-    cout << l << ' ' << r << ' ';
+//    cout << l << ' ' << r << ' ';
     cout << l * r << '\n';
 }
 
@@ -99,6 +114,6 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr), cout.tie(nullptr);
     int ttt = 1;
-//    cin >> ttt;
+    cin >> ttt;
     while (ttt--) Zlin();
 }
