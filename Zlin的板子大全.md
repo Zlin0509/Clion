@@ -1722,6 +1722,37 @@ hash[i]=(hash[i−1]∗Base+idx(s[i]))%MOD
 
 Base，MOD不同，进行两遍hash
 
+### manacher算法
+
+```c++
+void init()		//对S串进行处理加上‘#’
+{
+	s[0] = '~';
+	n = strlen(s + 1) * 2;
+	for (int i = n; i ; i -= 2)
+	{
+		s[i] = s[i / 2];
+		s[i - 1] = 'z' + 1;
+	}
+	s[++n] = 'z' + 1;
+}
+int ans = 0;
+void get_d(char s[], int n)			//求出每个位置的最大回文子串
+{
+
+	d[1] = 1;
+	for (int i = 2, l, r = 1; i <= n; i++)
+	{
+		if (i <= r) d[i] = min(d[r - i + l], r - i + 1);
+
+
+		while (s[i - d[i]] == s[i + d[i]]) d[i]++;
+		if (i + d[i] - 1 > r) l = i - d[i] + 1, r = i + d[i] - 1;
+		ans = max(ans, d[i] - 1);
+	}
+}
+```
+
 ### KMP
 
 
