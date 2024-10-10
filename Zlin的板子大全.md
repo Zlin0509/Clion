@@ -1,4 +1,4 @@
-[]: 
+
 
 # Zlin的板子大全
 
@@ -1679,16 +1679,19 @@ bool prim(int s)
 
 ##### **匈牙利算法**
 
+时间复杂度Omn
+
 ```c++
 vector<int> g[N];  // 邻接表
 int mt[N];         // 存储匹配
 bool vis[N];       // 访问标记
 
-// 尝试为 u 找增广路径
+// 深度优先搜索（DFS）查找增广路径
 bool dfs(int u) {
-    for (int v : g[u]) {
+    for (int v : adj[u]) {
         if (!vis[v]) {
             vis[v] = true;
+            // 如果 v 没有匹配或 v 的匹配点可以找到其他匹配
             if (mt[v] == -1 || dfs(mt[v])) {
                 mt[v] = u;
                 return true;
@@ -1698,16 +1701,78 @@ bool dfs(int u) {
     return false;
 }
 
-// 匈牙利算法求最大匹配
-int maxMatch(int n) {
-    memset(mt, -1, sizeof(mt));
-    int res = 0;
-
-    for (int u = 0; u < n; u++) {
-        memset(vis, 0, sizeof(vis));
-        if (dfs(u)) res++;
+// 匈牙利算法求二分图最大匹配
+int hungarian(int n) {
+    memset(mt, -1, sizeof mt);  // 初始化匹配数组，-1 表示没有匹配
+    int res = 0;  // 匹配的数量
+    for (int u = 0; u < n; ++u) {
+        memset(vis, false, sizeof(vis));  // 每次查找增广路径时重置访问标记
+        if (dfs(u)) {  // 如果找到增广路径，匹配数加1
+            ++res;
+        }
     }
     return res;
+}
+```
+
+##### **Hopcroft-Karp算法**
+
+时间复杂度Osqrt(n)m
+
+```c++
+int n, m;// n: 左侧顶点数, m: 右侧顶点数
+vi mtl(N), mtr(N), dis(N);// mtl,mtr:左侧和右侧的匹配情况 dis:记录距离（用于 BFS）
+vector<vi> g(N);// 存储二分图的邻接表
+
+bool bfs() {
+    queue<int> q;
+    for (int u = 1; u <= n; u++) {
+        if (mtl[u] == -1) {//初始化起点，如果没有被匹配过，距离为零，放入队列
+            dis[u] = 0;
+            q.push(u);
+        } else {//如果有，则赋值为inf
+            dis[u] = inf;
+        }
+    }
+    bool check = false;
+    while (!q.empty()) {
+        int u = q.front();
+        q.pop();
+        for (int v: g[u]) {
+            int vv = mtr[v];//表示右边能到达的点的匹配点
+            if (vv == -1) {//如果为-1，说明这个右边的点没有被匹配，能直接使用
+                check = true;
+            } else {//如果不为-1，说明他和vv匹配，把vv放到队列中，同时更新dis[vv]，说明vv和u是间隔相邻
+                dis[vv] = dis[u] + 1;
+                q.push(vv);
+            }
+        }
+    }
+    return check;
+}
+
+bool dfs(int u) {
+    for (int v: g[u]) {
+        int vv = mtr[v];
+        if (vv == -1 || (dis[vv] == dis[u] + 1 && dfs(vv))) {
+            mtl[u] = v;
+            mtl[v] = u;
+            return true;
+        }
+    }
+    dis[u] = inf;//重置距离
+    return false;
+}
+
+int HK() {
+    for (int i = 1; i <= n; i++) mtl[i] = -1;
+    for (int i = 1; i <= m; i++) mtr[i] = -1;
+    int mt = 0;
+    while (bfs()) // 分阶段寻找增广路径
+        for (int u = 1; u <= n; u++)
+            if (mtl[u] == -1 && dfs(u))// 如果没被匹配过同时找到增广路径，匹配数加1
+                ++mt;
+    return mt;
 }
 ```
 
