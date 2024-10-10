@@ -40,7 +40,7 @@ bool bfs() {
             int vv = mtr[v];//表示右边能到达的点的匹配点
             if (vv == -1) {//如果为-1，说明这个右边的点没有被匹配，能直接使用
                 check = true;
-            } else {//如果不为-1，说明他和vv匹配，把vv放到队列中，同时更新dis[vv]，说明vv和u是间隔相邻
+            } else if (dis[vv] == inf) {//如果不为-1，说明他和vv匹配，把vv放到队列中，同时更新dis[vv]，说明vv和u是间隔相邻
                 dis[vv] = dis[u] + 1;
                 q.push(vv);
             }
@@ -54,7 +54,7 @@ bool dfs(int u) {
         int vv = mtr[v];
         if (vv == -1 || (dis[vv] == dis[u] + 1 && dfs(vv))) {
             mtl[u] = v;
-            mtl[v] = u;
+            mtr[v] = u;
             return true;
         }
     }
@@ -77,7 +77,6 @@ inline void Zlin() {
     for (int i = 1, u, v; i <= m; i++) {
         cin >> u >> v;
         g[u].push_back(v);
-        g[v].push_back(u);
     }
     ll l = 0, r = n - HK();
     for (int i = 1; i <= n; i++) {
@@ -100,6 +99,6 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr), cout.tie(nullptr);
     int ttt = 1;
-    cin >> ttt;
+//    cin >> ttt;
     while (ttt--) Zlin();
 }
