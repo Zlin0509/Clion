@@ -17,10 +17,11 @@ typedef pair<long long, long long> pll;
 
 const int inf = 1e9;
 const int N = 1e5 + 20;
+const int M = 1e5 + 20;
 
-int n, m;
+int n, m;// n: 左侧顶点数, m: 右侧顶点数
 vi mtl(N), mtr(N), dis(N);// mtl,mtr:左侧和右侧的匹配情况 dis:记录距离（用于 BFS）
-vector<vi> g(N), gg(N);// 存储二分图的邻接表
+vector<vi> gl(N), gr(N);// 存储二分图的邻接表
 
 bool bfs() {
     queue<int> q;
@@ -36,7 +37,7 @@ bool bfs() {
     while (!q.empty()) {
         int u = q.front();
         q.pop();
-        for (int v: g[u]) {
+        for (int v: gl[u]) {
             int vv = mtr[v];//表示右边能到达的点的匹配点
             if (vv == -1) {//如果为-1，说明这个右边的点没有被匹配，能直接使用
                 check = true;
@@ -50,7 +51,7 @@ bool bfs() {
 }
 
 bool dfs(int u) {
-    for (int v: g[u]) {
+    for (int v: gl[u]) {
         int vv = mtr[v];
         if (vv == -1 || (dis[vv] == dis[u] + 1 && dfs(vv))) {
             mtl[u] = v;
@@ -63,7 +64,8 @@ bool dfs(int u) {
 }
 
 int HK() {
-    for (int i = 1; i <= n; i++) mtl[i] = mtr[i] = -1;
+    for (int i = 1; i <= n; i++) mtl[i] = -1;
+    for (int i = 1; i <= n; i++) mtr[i] = -1;
     int mt = 0;
     while (bfs()) // 分阶段寻找增广路径
         for (int u = 1; u <= n; u++)
@@ -72,42 +74,47 @@ int HK() {
     return mt;
 }
 
+int cnt[2], vis[2][N];
+
+void DFS_l(int u) {
+    if (vis[0][u]) return;
+    ++cnt[0];
+    vis[0][u] = 1;
+    for (int v: gl[u])
+        if (mtr[v] != -1)
+            DFS_l(mtr[v]);
+}
+
+void DFS_r(int u) {
+    if (vis[1][u]) return;
+    ++cnt[1];
+    vis[1][u] = 1;
+    for (int v: gr[u])
+        if (mtl[v] != -1)
+            DFS_r(mtl[v]);
+}
+
 inline void Zlin() {
     cin >> n >> m;
     for (int i = 1; i <= n; i++) {
-        g[i].clear();
-        gg[i].clear();
+        vis[0][i] = vis[1][i] = 0;
+        gl[i].clear();
+        gr[i].clear();
     }
     for (int i = 1, u, v; i <= m; i++) {
         cin >> u >> v;
-        g[u].push_back(v);
-        gg[v].push_back(u);
+        gl[u].push_back(v);
+        gr[v].push_back(u);
     }
-    ll l = 0, r = n - HK();
+    HK();
+    cnt[0] = cnt[1] = 0;
     for (int i = 1; i <= n; i++) {
-        if (mtl[i] == -1) {
-            ++l;
-        } else {
-            bool check = false;
-            for (int v: g[i]) {
-                if (mtr[v] == -1) {
-                    check = true;
-                    break;
-                }
-            }
-            if (!check) {
-                for (int vv: gg[mtl[i]]) {
-                    if (mtl[vv] == -1) {
-                        check = true;
-                        break;
-                    }
-                }
-            }
-            if (check) ++l;
-        }
+        if (mtl[i] == -1)
+            DFS_l(i);
+        if (mtr[i] == -1)
+            DFS_r(i);
     }
-//    cout << l << ' ' << r << ' ';
-    cout << l * r << '\n';
+    cout << 1ll * cnt[0] * cnt[1] << '\n';
 }
 
 int main() {

@@ -1487,7 +1487,7 @@ DSU
 >
 >
 
-### 点双连通分量
+##### 点双连通分量
 
 >基础性质：
 >**1、** 除了一种比较特殊的点双，其他的点双都满足：任意两点间都存在至少两条点不重复路径。
@@ -1521,7 +1521,7 @@ DSU
 >}
 >```
 
-### 边双连通分量
+##### 边双连通分量
 
 >基础性质:
 >**1、** 割边不属于任意边双，而其它非割边的边都属于且仅属于一个边双。
@@ -1717,7 +1717,7 @@ int hungarian(int n) {
 
 ##### **Hopcroft-Karp算法**
 
-时间复杂度Osqrt(n)m
+时间复杂度On^0.5^m
 
 ```c++
 int n, m;// n: 左侧顶点数, m: 右侧顶点数
@@ -1773,6 +1773,140 @@ int HK() {
             if (mtl[u] == -1 && dfs(u))// 如果没被匹配过同时找到增广路径，匹配数加1
                 ++mt;
     return mt;
+}
+```
+
+### 网络流
+
+#### 最大流 
+
+V是节点数 E是边数
+
+##### EK算法
+
+时间复杂度O(VE^2^)
+
+```c++
+int S, T;//S 源点 T 汇点
+//链式前向星
+struct edge {
+    ll v, c, next;
+} e[M];
+int head[N], idx = 1;
+ll mf[N], pre[N];//mf 存S_v的流量上限 pre 存每个点的前驱边编号
+
+void add(int u, int v, int c) {
+    ++idx;//先+1，因为要存反边，所以从2开始
+    e[idx] = {v, c, head[u]};
+    head[u] = idx;
+}
+
+bool bfs() {
+    memset(mf, 0, sizeof mf);//多组数据记得数组大小
+    queue<int> q;
+    q.push(S);
+    mf[S] = inf;
+    while (!q.empty()) {
+        int u = q.front();
+        q.pop();
+        for (int i = head[u]; i; i = e[i].next) {
+            int v = e[i].v;
+            if (mf[v] == 0 && e[i].c) {//判断当前结点是否被走过和有没有边
+                mf[v] = min(mf[u], e[i].c);
+                pre[v] = i;
+                q.push(v);
+                if (v == T) return true;
+            }
+        }
+    }
+    return false;
+}
+
+ll EK() {
+    ll flow = 0;
+    while (bfs()) {
+        int v = T;
+        while (v != S) {
+            int i = pre[v];
+            e[i].c -= mf[T];//正向边
+            e[i ^ 1].c += mf[T];//反向边
+            v = e[i ^ 1].v;
+        }
+        flow += mf[T];
+    }
+    return flow;
+}
+```
+
+
+
+##### Dinic算法
+
+在普通情况下， DINIC算法时间复杂度为O(V^2^E) 
+在二分图中， DINIC算法时间复杂度为O(V^0.5^E)
+
+```c++
+int S, T;//S 源点 T 汇点
+//链式前向星
+struct edge {
+    ll v, c, next;
+} e[M];
+int head[N], cur[N], idx = 1;
+ll dep[N], pre[N];//mf 存S_v的流量上限 pre 存每个点的前驱边编号
+
+void add(int u, int v, int c) {
+    ++idx;//先+1，因为要存反边，所以从2开始
+    e[idx] = {v, c, head[u]};
+    head[u] = idx;
+}
+
+bool bfs() {//建立分层数组dep
+    memset(dep, 0, sizeof dep);//多组数据记得数组大小
+    queue<int> q;
+    q.push(S);
+    dep[S] = 1;
+    while (!q.empty()) {
+        int u = q.front();
+        q.pop();
+        for (int i = head[u]; i; i = e[i].next) {
+            int v = e[i].v;
+            if (dep[v] == 0 && e[i].c) {//判断当前结点是否被走过和有没有边
+                dep[v] = dep[v] + 1;
+                pre[v] = i;
+                q.push(v);
+                if (v == T) return true;
+            }
+        }
+    }
+    return false;
+}
+
+ll dfs(int u, ll mf) {
+    if (u == T) return mf;
+    ll sum = 0;
+    for (int i = head[u]; i; i = e[i].next) {
+        cur[u] = i;
+        int v = e[i].v;
+        if (dep[v] == dep[u] + 1 && e[i].c) {
+            ll f = dfs(v, min(mf, e[i].c));
+            e[i].c -= f;
+            e[i ^ 1].c += f;
+            sum += f;
+            mf -= f;
+            if (mf == 0) break;
+        }
+    }
+    if (sum == 0) dep[u] = 0;//如果流量为0，将这个点去除
+    return sum;
+}
+
+ll dinic() {
+    ll flow = 0;
+    while (bfs()) {
+        memcpy(cur, head, sizeof head);
+        flow += dfs(S, inf);
+    }
+    return flow;
 }
 ```
 
